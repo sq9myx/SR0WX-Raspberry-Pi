@@ -1,0 +1,615 @@
+
+
+# z tej listy należy wybrać wiersze z interesującymi wodowskazami 
+# i wkleić je do konfiguracji modułu imgw_podest_sq9atk
+
+
+'2.150210180',         # wodowskaz: Annopol, rzeka: Wisła
+'2.153220270',         # wodowskaz: Babino, rzeka: Narew
+'2.150190310',         # wodowskaz: Balice, rzeka: Rudawa
+'2.154220010',         # wodowskaz: Banie Mazurskie, rzeka: Gołdapa
+'2.150150040',         # wodowskaz: Barcinek, rzeka: Kamienica
+'2.150160220',         # wodowskaz: Bardo, rzeka: Nysa Kłodzka
+'2.154150040',         # wodowskaz: Bardy, rzeka: Parsęta
+'2.153190040',         # wodowskaz: Bągart, rzeka: Elbląg
+'2.152140090',         # wodowskaz: Biała Góra, rzeka: Odra
+'2.150170050',         # wodowskaz: Biała Nyska, rzeka: Biała Głuchołaska
+'2.153210070',         # wodowskaz: Białobrzeg Bliższy, rzeka: Omulew
+'2.151200120',         # wodowskaz: Białobrzegi, rzeka: Pilica
+'2.153220280',         # wodowskaz: Białobrzegi, rzeka: Netta
+'2.150160250',         # wodowskaz: Białobrzezie, rzeka: Ślęza
+'2.154150050',         # wodowskaz: Białogard, rzeka: Parsęta
+'2.154160020',         # wodowskaz: Białogórzyno, rzeka: Radew
+'2.153170010',         # wodowskaz: Białośliwie, rzeka: Noteć
+'2.152230190',         # wodowskaz: Białowieża - Park, rzeka: Narewka
+'2.152190100',         # wodowskaz: Bielawy, rzeka: Mroga
+'2.152140010',         # wodowskaz: Bielinek, rzeka: Odra
+'2.150190140',         # wodowskaz: Bieruń Nowy, rzeka: Wisła
+'2.150220110',         # wodowskaz: Biłgoraj, rzeka: Łada
+'2.150200070',         # wodowskaz: Biskupice, rzeka: Szreniawa
+'2.152150100',         # wodowskaz: Bledzew, rzeka: Obra
+'2.150150130',         # wodowskaz: Błażkowa, rzeka: Bóbr
+'2.151190060',         # wodowskaz: Bobry, rzeka: Warta
+'2.150200020',         # wodowskaz: Bocheniec, rzeka: Wierna Rzeka
+'2.150140100',         # wodowskaz: Bogatynia, rzeka: Miedzianka
+'2.151170060',         # wodowskaz: Bogdaj, rzeka: Polska Woda
+'2.151160180',         # wodowskaz: Bogdaszowice, rzeka: Strzegomka
+'2.151170110',         # wodowskaz: Bogusław, rzeka: Prosna
+'2.150180040',         # wodowskaz: Bojanów, rzeka: Psina
+'2.150190060',         # wodowskaz: Bojszowy, rzeka: Gostynia
+'2.152230110',         # wodowskaz: Bondary, rzeka: Narew
+'2.152200120',         # wodowskaz: Borkowo, rzeka: Wkra
+'2.154200010',         # wodowskaz: Bornity, rzeka: Wałsza
+'2.150160280',         # wodowskaz: Borów, rzeka: Ślęza
+'2.154170190',         # wodowskaz: Borucino, rzeka: Jez. Raduńskie Górne
+'2.150200140',         # wodowskaz: Borzęcin, rzeka: Uszwica
+'2.153180030',         # wodowskaz: Bożepole Szlacheckie, rzeka: Wierzyca
+'2.150170170',         # wodowskaz: Branice, rzeka: Boczne koryto Opawy
+'2.150170160',         # wodowskaz: Branice, rzeka: Opawa
+'2.154190140',         # wodowskaz: Braniewo, rzeka: Pasłęka
+'2.152220070',         # wodowskaz: Brańsk, rzeka: Nurzec
+'2.153190050',         # wodowskaz: Brodnica, rzeka: Drwęca
+'2.151210040',         # wodowskaz: Brody Iłżeckie, rzeka: Kamienna
+'2.153180110',         # wodowskaz: Brody Pomorskie, rzeka: Wierzyca
+'2.150190010',         # wodowskaz: Brynica, rzeka: Brynica
+'2.150170090',         # wodowskaz: Brzeg, rzeka: Odra
+'2.151160170',         # wodowskaz: Brzeg Dolny, rzeka: Odra
+'2.150200030',         # wodowskaz: Brzegi, rzeka: Nida
+'2.149200510',         # wodowskaz: Brzesko-Miasto (Lsop), rzeka: Uszwica
+'2.150210140',         # wodowskaz: Brzeźnica, rzeka: Brzeźnica
+'2.151160040',         # wodowskaz: Bukowna, rzeka: Czarna Woda
+'2.150150120',         # wodowskaz: Bukówka, rzeka: Bóbr
+'2.151180120',         # wodowskaz: Burzenin, rzeka: Warta
+'2.153220100',         # wodowskaz: Burzyn, rzeka: Biebrza
+'2.150160150',         # wodowskaz: Bystrzyca Kłodzka, rzeka: Bystrzyca
+'2.150160170',         # wodowskaz: Bystrzyca Kłodzka, rzeka: Nysa Kłodzka
+'2.151200100',         # wodowskaz: Bzin, rzeka: Kamienna
+'2.149180020',         # wodowskaz: Chałupki, rzeka: Odra
+'2.154160140',         # wodowskaz: Charnowo, rzeka: Słupia
+'2.150220140',         # wodowskaz: Charytany, rzeka: Szkło
+'2.153180080',         # wodowskaz: Chełmno, rzeka: Wisła
+'2.151150180',         # wodowskaz: Chojnów, rzeka: Skora
+'2.152230030',         # wodowskaz: Chraboły, rzeka: Orlanka
+'2.150160030',         # wodowskaz: Chwaliszów, rzeka: Strzegomka
+'2.149180070',         # wodowskaz: Cieszyn, rzeka: Młynówka
+'2.149180060',         # wodowskaz: Cieszyn, rzeka: Olza
+'2.149190080',         # wodowskaz: Cięcina, rzeka: Soła
+'2.149200330',         # wodowskaz: Ciężkowice, rzeka: Biała
+'2.152150130',         # wodowskaz: Cigacice, rzeka: Odra
+'2.149220080',         # wodowskaz: Cisna, rzeka: Solinka
+'2.153220090',         # wodowskaz: Czachy, rzeka: Wissa
+'2.149190120',         # wodowskaz: Czaniec-Kobiernice, rzeka: Soła
+'2.153180010',         # wodowskaz: Czarna Woda, rzeka: Wda
+'2.152160070',         # wodowskaz: Czarnków, rzeka: Noteć
+'2.152210100',         # wodowskaz: Czarnowo, rzeka: Orz
+'2.149200230',         # wodowskaz: Czchów, rzeka: Dunajec
+'2.149190010',         # wodowskaz: Czechowice-Bestwina, rzeka: Biała
+'2.149180250',         # wodowskaz: Czechowice-Dziedzice, rzeka: Iłownica
+'2.151210090',         # wodowskaz: Czekarzewice, rzeka: Kamienna
+'2.149190230',         # wodowskaz: Czernichów-Prom, rzeka: Wisła
+'2.150200160',         # wodowskaz: Daleszyce, rzeka: Czarna Nida
+'2.154160150',         # wodowskaz: Darłowo, rzeka: Bałtyk
+'2.152180150',         # wodowskaz: Dąbie, rzeka: Ner
+'2.151190120',         # wodowskaz: Dąbrowa, rzeka: Czarna
+'2.151150140',         # wodowskaz: Dąbrowa Bolesławiecka, rzeka: Bóbr
+'2.151180050',         # wodowskaz: Dębe, rzeka: Swędrnia
+'2.151210120',         # wodowskaz: Dęblin, rzeka: Wisła
+'2.153220260',         # wodowskaz: Dębowo, rzeka: Biebrza
+'2.149200090',         # wodowskaz: Dobczyce, rzeka: Raba
+'2.150170220',         # wodowskaz: Dobra, rzeka: Biała
+'2.151150050',         # wodowskaz: Dobroszów Wielki, rzeka: Bóbr
+'2.153210220',         # wodowskaz: Dobrylas, rzeka: Pisa
+'2.154190040',         # wodowskaz: Dolna Kępa (Nowotki), rzeka: Nogat
+'2.150170200',         # wodowskaz: Domaradz, rzeka: Bogacica
+'2.151230060',         # wodowskaz: Dorohusk, rzeka: Bug
+'2.152150240',         # wodowskaz: Drawiny, rzeka: Drawa
+'2.149180080',         # wodowskaz: Drogomyśl, rzeka: Wisła
+'2.151160050',         # wodowskaz: Dunino, rzeka: Kaczawa
+'2.149220150',         # wodowskaz: Dwernik, rzeka: San
+'2.149220040',         # wodowskaz: Dynów, rzeka: San
+'2.151180130',         # wodowskaz: Działoszyn, rzeka: Warta
+'2.150160140',         # wodowskaz: Dzierżoniów, rzeka: Piława
+'2.153140070',         # wodowskaz: Dziwnów, rzeka: Bałtyk
+'2.154190060',         # wodowskaz: Elbląg, rzeka: Elbląg
+'2.153180140',         # wodowskaz: Elgiszewo, rzeka: Drwęca
+'2.153220050',         # wodowskaz: Ełk , rzeka: Jez. Ełckie
+'2.153220060',         # wodowskaz: Ełk , rzeka: Ełk
+'2.153230010',         # wodowskaz: Fasty, rzeka: Supraśl
+'2.153180020',         # wodowskaz: Fordon, rzeka: Wisła
+'2.152220050',         # wodowskaz: Frankopol, rzeka: Bug
+'2.154180140',         # wodowskaz: Gdańsk Port Północny, rzeka: Bałtyk
+'2.154180190',         # wodowskaz: Gdańsk Przegalina, rzeka: Wisła
+'2.154180160',         # wodowskaz: Gdańsk Sobieszewo, rzeka: Martwa Wisła
+'2.154180200',         # wodowskaz: Gdańsk Świbno, rzeka: Wisła
+'2.154180210',         # wodowskaz: Gdańsk Ujście Wisły, rzeka: Wisła
+'2.154180220',         # wodowskaz: Gdańska Głowa (Drewnica), rzeka: Wisła
+'2.154180120',         # wodowskaz: Gdynia, rzeka: Bałtyk
+'2.154210090',         # wodowskaz: Giżycko, rzeka: Pisa
+'2.150180220',         # wodowskaz: Gliwice, rzeka: Kłodnica
+'2.150180180',         # wodowskaz: Gliwice-Łabędy, rzeka: Kłodnica
+'2.151160060',         # wodowskaz: Głogów, rzeka: Odra
+'2.150210110',         # wodowskaz: Głowaczowa, rzeka: Grabinka
+'2.150170070',         # wodowskaz: Głuchołazy, rzeka: Biała Głuchołaska
+'2.150160290',         # wodowskaz: Gniechowice, rzeka: Czarna Woda
+'2.149180240',         # wodowskaz: Goczałkowice, rzeka: Wisła
+'2.149210120',         # wodowskaz: Godowa, rzeka: Stobnica
+'2.153140090',         # wodowskaz: Goleniów, rzeka: Ina
+'2.154220110',         # wodowskaz: Gołdap 2, rzeka: Gołdapa
+'2.149200190',         # wodowskaz: Gołkowice, rzeka: Dunajec
+'2.154180060',         # wodowskaz: Goręczyno, rzeka: Radunia
+'2.150220060',         # wodowskaz: Gorliczyna, rzeka: Mleczka
+'2.151180070',         # wodowskaz: Gorzów Śląski, rzeka: Prosna
+'2.152150040',         # wodowskaz: Gorzów Wielkopolski, rzeka: Warta
+'2.150160100',         # wodowskaz: Gorzuchów, rzeka: Ścinawka
+'2.152150140',         # wodowskaz: Gościmiec, rzeka: Noteć
+'2.152140020',         # wodowskaz: Gozdowice, rzeka: Odra
+'2.150230070',         # wodowskaz: Gozdów, rzeka: Huczwa
+'2.149180120',         # wodowskaz: Górki Wielkie, rzeka: Brennica
+'2.151180180',         # wodowskaz: Grabno, rzeka: Grabia
+'2.150180080',         # wodowskaz: Grabówka, rzeka: Bierawka
+'2.150210200',         # wodowskaz: Grębów, rzeka: Łęg
+'2.153180100',         # wodowskaz: Grudziądz, rzeka: Wisła
+'2.149200310',         # wodowskaz: Grybów, rzeka: Biała
+'2.153140030',         # wodowskaz: Gryfino, rzeka: Odra
+'2.151150110',         # wodowskaz: Gryfów Śląski, rzeka: Kwisa
+'2.152180140',         # wodowskaz: Grzegorzew, rzeka: Rgilewka
+'2.151140010',         # wodowskaz: Gubin, rzeka: Nysa Łużycka
+'2.151210050',         # wodowskaz: Gusin, rzeka: Wisła
+'2.153230130',         # wodowskaz: Harasimowicze, rzeka: Sidra
+'2.150220050',         # wodowskaz: Harasiuki, rzeka: Tanew
+'2.153180120',         # wodowskaz: Hel, rzeka: Bałtyk
+'2.149220070',         # wodowskaz: Hoczew, rzeka: Hoczewka
+'2.151150030',         # wodowskaz: Iłowa, rzeka: Czerna Mała
+'2.149210140',         # wodowskaz: Iskrzynia, rzeka: Morwawa
+'2.149180130',         # wodowskaz: Istebna, rzeka: Olza
+'2.154170090',         # wodowskaz: Izbica, rzeka: Jez. Łebsko
+'2.149200200',         # wodowskaz: Jakubkowice, rzeka: Łososina
+'2.150150030',         # wodowskaz: Jakuszyce, rzeka: Kamienna
+'2.150190350',         # wodowskaz: Januszewice, rzeka: Czarna
+'2.151160190',         # wodowskaz: Jarnołtów, rzeka: Bystrzyca
+'2.150170080',         # wodowskaz: Jarnołtówek, rzeka: Złoty Potok
+'2.150220100',         # wodowskaz: Jarosław, rzeka: San
+'2.149210080',         # wodowskaz: Jasło, rzeka: Jasiołka
+'2.149190060',         # wodowskaz: Jawiszowice, rzeka: Wisła
+'2.151160090',         # wodowskaz: Jawor, rzeka: Nysa Szalona
+'2.150150070',         # wodowskaz: Jelenia Góra, rzeka: Kamienna
+'2.150150080',         # wodowskaz: Jelenia Góra, rzeka: Bóbr
+'2.150190180',         # wodowskaz: Jeleń, rzeka: Przemsza
+'2.149190290',         # wodowskaz: Jordanów, rzeka: Skawa
+'2.150160060',         # wodowskaz: Jugowice, rzeka: Bystrzyca
+'2.154220050',         # wodowskaz: Jurkiszki, rzeka: Gołdapa
+'2.153200030',         # wodowskaz: Kalisty, rzeka: Pasłęka
+'2.149220110',         # wodowskaz: Kalnica, rzeka: Wetlina
+'2.149190020',         # wodowskaz: Kamesznica, rzeka: Bystra
+'2.150160270',         # wodowskaz: Kamieniec Ząbkowicki, rzeka: Budzówka
+'2.150160010',         # wodowskaz: Kamienna Góra, rzeka: Bóbr
+'2.150180010',         # wodowskaz: Kamionka, rzeka: Stradunia
+'2.151160220',         # wodowskaz: Kanclerzowice, rzeka: Sąsiecznica
+'2.150170150',         # wodowskaz: Karłowice, rzeka: Stobrawa
+'2.153230020',         # wodowskaz: Karpowicze, rzeka: Brzozówka
+'2.150200150',         # wodowskaz: Karsy, rzeka: Wisła
+'2.149200040',         # wodowskaz: Kasinka Mała, rzeka: Raba
+'2.151210080',         # wodowskaz: Kazanów, rzeka: Iłżanka
+'2.152190120',         # wodowskaz: Kępa Polska, rzeka: Wisła
+'2.152200010',         # wodowskaz: Kęszyce, rzeka: Rawka
+'2.149210030',         # wodowskaz: Klęczany, rzeka: Ropa
+'2.150160180',         # wodowskaz: Kłodzko, rzeka: Nysa Kłodzka
+'2.151190080',         # wodowskaz: Kłudzice, rzeka: Luciąża
+'2.150210150',         # wodowskaz: Koło, rzeka: Wisła
+'2.152180120',         # wodowskaz: Koło, rzeka: Warta
+'2.154150030',         # wodowskaz: Kołobrzeg, rzeka: Bałtyk
+'2.152180160',         # wodowskaz: Konin-Morzysław, rzeka: Kanał Ślesiński
+'2.149190280',         # wodowskaz: Koniówka, rzeka: Czarny Dunajec
+'2.150170100',         # wodowskaz: Kopice, rzeka: Nysa Kłodzka
+'2.150210160',         # wodowskaz: Koprzywnica, rzeka: Koprzywianka
+'2.151160200',         # wodowskaz: Korzeńsko, rzeka: Orla
+'2.154160120',         # wodowskaz: Korzybie, rzeka: Wieprza
+'2.152140060',         # wodowskaz: Kostrzyn Nad Odrą, rzeka: Odra
+'2.152140070',         # wodowskaz: Kostrzyn Nad Odrą, rzeka: Warta
+'2.149200320',         # wodowskaz: Koszyce Wielkie, rzeka: Biała
+'2.152160090',         # wodowskaz: Kościan, rzeka: Kanał Mosiński
+'2.152180110',         # wodowskaz: Kościelec, rzeka: Kiełbaska
+'2.149190300',         # wodowskaz: Kościelisko-Kiry, rzeka: Kirowa Woda
+'2.151220010',         # wodowskaz: Kośmin, rzeka: Wieprz
+'2.152160110',         # wodowskaz: Kowanówko, rzeka: Wełna
+'2.150150110',         # wodowskaz: Kowary, rzeka: Jedlica
+'2.150180270',         # wodowskaz: Kozłowa Góra, rzeka: Brynica
+'2.150180030',         # wodowskaz: Koźle, rzeka: Odra
+'2.149210050',         # wodowskaz: Krajowice, rzeka: Wisłoka
+'2.150190340',         # wodowskaz: Kraków-Bielany, rzeka: Wisła
+'2.150170240',         # wodowskaz: Krapkowice, rzeka: Odra
+'2.150160120',         # wodowskaz: Krasków, rzeka: Bystrzyca
+'2.150230040',         # wodowskaz: Krasnystaw, rzeka: Wieprz
+'2.151180060',         # wodowskaz: Kraszewice, rzeka: Łużyca
+'2.153180060',         # wodowskaz: Krąplewice, rzeka: Wda
+'2.149210090',         # wodowskaz: Krempna-Kotań, rzeka: Wisłoka
+'2.150190240',         # wodowskaz: Kręciwilk, rzeka: Warta
+'2.149210110',         # wodowskaz: Krosno, rzeka: Wisłok
+'2.154200020',         # wodowskaz: Krosno, rzeka: Drwęca Warmińska
+'2.149200160',         # wodowskaz: Krościenko, rzeka: Dunajec
+'2.149220200',         # wodowskaz: Krówniki, rzeka: Wiar
+'2.152200090',         # wodowskaz: Krubice, rzeka: Utrata
+'2.150180190',         # wodowskaz: Krupski Młyn, rzeka: Mała Panew
+'2.150240020',         # wodowskaz: Kryłów, rzeka: Bug
+'2.149190350',         # wodowskaz: Krzczonów, rzeka: Krzczonówka
+'2.152230080',         # wodowskaz: Krzyczew, rzeka: Bug
+'2.150170210',         # wodowskaz: Krzywa Góra, rzeka: Budkowiczanka
+'2.152160010',         # wodowskaz: Krzyż, rzeka: Noteć
+'2.149180010',         # wodowskaz: Krzyżanowice, rzeka: Odra
+'2.151170010',         # wodowskaz: Krzyżanowice, rzeka: Widawa
+'2.150160040',         # wodowskaz: Kudowa-Zdrój-Zakrze, rzeka: Klikawa
+'2.151190010',         # wodowskaz: Kule, rzeka: Liswarta
+'2.153220230',         # wodowskaz: Kulesze Chobotki, rzeka: Nereśl
+'2.153190130',         # wodowskaz: Kuligi, rzeka: Wel
+'2.150210090',         # wodowskaz: Kunów, rzeka: Kamienna
+'2.151180030',         # wodowskaz: Kuźnica Skakawska, rzeka: Niesób
+'2.150190210',         # wodowskaz: Kuźnica Sulikowska, rzeka: Mitręga
+'2.152190050',         # wodowskaz: Kwiatkówek, rzeka: Bzura
+'2.153180130',         # wodowskaz: Kwidzyn, rzeka: Liwa
+'2.150190360',         # wodowskaz: Las, rzeka: Wisła
+'2.152170130',         # wodowskaz: Ląd, rzeka: Warta
+'2.150160230',         # wodowskaz: Lądek-Zdrój, rzeka: Biała Lądecka
+'2.150180070',         # wodowskaz: Lenartowice, rzeka: Kłodnica
+'2.149220060',         # wodowskaz: Lesko, rzeka: San
+'2.151150060',         # wodowskaz: Leśna, rzeka: Kwisa
+'2.150220090',         # wodowskaz: Leżachów, rzeka: San
+'2.154170160',         # wodowskaz: Lębork 2, rzeka: Łeba
+'2.150190200',         # wodowskaz: Lgota Nadwarcie, rzeka: Warta
+'2.153190150',         # wodowskaz: Lidzbark, rzeka: Wel
+'2.149200360',         # wodowskaz: Lipnica Murowana (Lsop), rzeka: Uszwica
+'2.150160070',         # wodowskaz: Lubachów, rzeka: Bystrzyca
+'2.151220090',         # wodowskaz: Lubartów, rzeka: Wieprz
+'2.149190370',         # wodowskaz: Lubień, rzeka: Lubieńka
+'2.149190360',         # wodowskaz: Ludźmierz, rzeka: Lepietnica
+'2.149190390',         # wodowskaz: Ludźmierz, rzeka: Wielki Rogoźnik
+'2.151190040',         # wodowskaz: Lutomiersk, rzeka: Ner
+'2.149200270',         # wodowskaz: Łabowa, rzeka: Kamienica
+'2.149210040',         # wodowskaz: Łabuzie, rzeka: Wisłoka
+'2.150190130',         # wodowskaz: Łagisza, rzeka: Przemsza
+'2.149200480',         # wodowskaz: Łapanów-Rynek (Lsop), rzeka: Stradomka
+'2.151190030',         # wodowskaz: Łask, rzeka: Grabia
+'2.149180030',         # wodowskaz: Łaziska, rzeka: Olza
+'2.150160090',         # wodowskaz: Łażany, rzeka: Strzegomka
+'2.151170040',         # wodowskaz: Łąki, rzeka: Barycz
+'2.154170100',         # wodowskaz: Łeba, rzeka: Bałtyk
+'2.149190140',         # wodowskaz: Łękawica, rzeka: Łękawka
+'2.152210120',         # wodowskaz: Łochów, rzeka: Liwiec
+'2.149190070',         # wodowskaz: Łodygowice, rzeka: Żylica
+'2.150150090',         # wodowskaz: Łomnica, rzeka: Łomnica
+'2.154190170',         # wodowskaz: Łozy, rzeka: Pasłęka
+'2.151150090',         # wodowskaz: Łozy, rzeka: Kwisa
+'2.154170080',         # wodowskaz: Łupawa, rzeka: Łupawa
+'2.149200100',         # wodowskaz: Łysa Polana, rzeka: Białka
+'2.152210030',         # wodowskaz: Maków Mazowiecki, rzeka: Orzyc
+'2.151160150',         # wodowskaz: Malczyce, rzeka: Odra
+'2.153210200',         # wodowskaz: Maldanin, rzeka: Jez. Roś
+'2.152230070',         # wodowskaz: Malowa Góra, rzeka: Krzna
+'2.152229999',         # wodowskaz: Małkinia, rzeka: Bug
+'2.150230080',         # wodowskaz: Michalów, rzeka: Wieprz
+'2.150200050',         # wodowskaz: Michałów, rzeka: Mierzawa
+'2.151210020',         # wodowskaz: Michałów, rzeka: Kamienna
+'2.154210100',         # wodowskaz: Mieduniszki, rzeka: Węgorapa
+'2.150210120',         # wodowskaz: Mielec 2, rzeka: Wisłoka
+'2.150160160',         # wodowskaz: Mietków, rzeka: Bystrzyca
+'2.152150200',         # wodowskaz: Międzychód, rzeka: Warta
+'2.150160190',         # wodowskaz: Międzylesie, rzeka: Nysa Kłodzka
+'2.149190030',         # wodowskaz: Mikuszowice, rzeka: Biała
+'2.154180020',         # wodowskaz: Miłoszewo, rzeka: Łeba
+'2.151180040',         # wodowskaz: Mirków, rzeka: Prosna
+'2.150150010',         # wodowskaz: Mirsk, rzeka: Kwisa
+'2.150150020',         # wodowskaz: Mirsk, rzeka: Czarny Potok
+'2.149180090',         # wodowskaz: Mizerów-Borki, rzeka: Pszczynka
+'2.150200010',         # wodowskaz: Mniszek, rzeka: Nida
+'2.150210030',         # wodowskaz: Mocha, rzeka: Łagowianka
+'2.152200110',         # wodowskaz: Modlin, rzeka: Wisła
+'2.150200120',         # wodowskaz: Morawica, rzeka: Czarna Nida
+'2.152160130',         # wodowskaz: Mosina, rzeka: Kanał Mosiński
+'2.150160130',         # wodowskaz: Mościsko, rzeka: Piława
+'2.149200060',         # wodowskaz: Mszana Dolna, rzeka: Raba
+'2.149200080',         # wodowskaz: Mszana Dolna, rzeka: Mszanka
+'2.149200290',         # wodowskaz: Muszyna Milik, rzeka: Poprad
+'2.153170100',         # wodowskaz: Nakło-Zachód, rzeka: Noteć
+'2.151170090',         # wodowskaz: Namysłów, rzeka: Widawa
+'2.152230090',         # wodowskaz: Narew, rzeka: Narew
+'2.152230100',         # wodowskaz: Narewka, rzeka: Narewka
+'2.151180090',         # wodowskaz: Niechmirów, rzeka: Oleśnica
+'2.149200120',         # wodowskaz: Niedzica, rzeka: Niedziczanka
+'2.150230010',         # wodowskaz: Nielisz, rzeka: Wieprz
+'2.150170120',         # wodowskaz: Niemodlin, rzeka: Ścinawa Niemodlińska
+'2.149220210',         # wodowskaz: Nienowice, rzeka: Wisznia
+'2.152150050',         # wodowskaz: Nietków, rzeka: Odra
+'2.150210080',         # wodowskaz: Nietulisko Duże, rzeka: Świślina
+'2.150220030',         # wodowskaz: Nisko, rzeka: San
+'2.150190100',         # wodowskaz: Niwka, rzeka: Biała Przemsza
+'2.150180210',         # wodowskaz: Niwki, rzeka: Liswarta
+'2.154190130',         # wodowskaz: Nowa Pasłęka, rzeka: Zalew Wiślany
+'2.151150150',         # wodowskaz: Nowa Sól, rzeka: Odra
+'2.152170060',         # wodowskaz: Nowa Wieś Podgórna, rzeka: Warta
+'2.154190050',         # wodowskaz: Nowe Batorowo (Nowakowo), rzeka: Zalew Wiślany
+'2.152150190',         # wodowskaz: Nowe Drezdenko, rzeka: Noteć
+'2.151200090',         # wodowskaz: Nowe Miasto, rzeka: Pilica
+'2.153190090',         # wodowskaz: Nowe Miasto Lubawskie, rzeka: Drwęca
+'2.154190110',         # wodowskaz: Nowe Sadłuki, rzeka: Bauda
+'2.151150100',         # wodowskaz: Nowogrodziec, rzeka: Kwisa
+'2.153210210',         # wodowskaz: Nowogród, rzeka: Narew
+'2.151150040',         # wodowskaz: Nowogród Bobrzański, rzeka: Bóbr
+'2.149220010',         # wodowskaz: Nowosielce, rzeka: Pielnica
+'2.153230170',         # wodowskaz: Nowosiółki, rzeka: Supraśl
+'2.154190010',         # wodowskaz: Nowy Dwór Gdański, rzeka: Tuja
+'2.149200240',         # wodowskaz: Nowy Sącz_Dunajec, rzeka: Dunajec
+'2.149200250',         # wodowskaz: Nowy Sącz_Kamienica, rzeka: Kamienica
+'2.149200260',         # wodowskaz: Nowy Sącz_Łubinka, rzeka: Łubinka
+'2.149200030',         # wodowskaz: Nowy Targ, rzeka: Czarny Dunajec
+'2.149200050',         # wodowskaz: Nowy Targ-Kowaniec, rzeka: Dunajec
+'2.150170060',         # wodowskaz: Nysa, rzeka: Nysa Kłodzka
+'2.152160100',         # wodowskaz: Oborniki, rzeka: Warta
+'2.151170070',         # wodowskaz: Odolanów, rzeka: Barycz
+'2.151170080',         # wodowskaz: Odolanów, rzeka: Kuroch
+'2.151200080',         # wodowskaz: Odrzywół, rzeka: Drzewiczka
+'2.150190330',         # wodowskaz: Ojców, rzeka: Prądnik
+'2.149200370',         # wodowskaz: Okocim (Lsop), rzeka: Uszwica
+'2.149220030',         # wodowskaz: Olchowce, rzeka: San
+'2.153200070',         # wodowskaz: Olsztyn-Kortowo, rzeka: Łyna
+'2.149180300',         # wodowskaz: Olza, rzeka: Odra
+'2.150170030',         # wodowskaz: Oława, rzeka: Oława
+'2.150170040',         # wodowskaz: Oława, rzeka: Odra
+'2.151180010',         # wodowskaz: Ołobok, rzeka: Ołobok
+'2.150170290',         # wodowskaz: Opole-Groszowice, rzeka: Odra
+'2.152200130',         # wodowskaz: Orzechowo, rzeka: Narew
+'2.151160140',         # wodowskaz: Osetno, rzeka: Barycz
+'2.149190260',         # wodowskaz: Osielec, rzeka: Skawa
+'2.151180100',         # wodowskaz: Osjaków, rzeka: Warta
+'2.154190030',         # wodowskaz: Osłonka, rzeka: Zalew Wiślany
+'2.153220160',         # wodowskaz: Osowiec , rzeka: Ełk
+'2.153220170',         # wodowskaz: Osowiec , rzeka: Biebrza
+'2.153210090',         # wodowskaz: Ostrołęka, rzeka: Narew
+'2.153190170',         # wodowskaz: Ostróda, rzeka: Jez. Drwęckie
+'2.151150020',         # wodowskaz: Ostróżno, rzeka: Witka
+'2.150220160',         # wodowskaz: Osuchy, rzeka: Tanew
+'2.150190160',         # wodowskaz: Oświęcim, rzeka: Soła
+'2.150180050',         # wodowskaz: Ozimek, rzeka: Mała Panew
+'2.152180030',         # wodowskaz: Pakość, rzeka: Noteć
+'2.154190100',         # wodowskaz: Pasłęk, rzeka: Wąska
+'2.149190150',         # wodowskaz: Pewel Mała, rzeka: Koszarawa
+'2.152210020',         # wodowskaz: Piaseczno 2, rzeka: Jeziorka
+'2.151160100',         # wodowskaz: Piątnica, rzeka: Kaczawa
+'2.153220010',         # wodowskaz: Piątnica-Łomża, rzeka: Narew
+'2.150150050',         # wodowskaz: Piechowice, rzeka: Kamienna
+'2.154190160',         # wodowskaz: Pierzchały , rzeka: Pasłęka
+'2.154190150',         # wodowskaz: Pierzchały_2, rzeka: Pasłęka
+'2.150150060',         # wodowskaz: Pilchowice, rzeka: Bóbr
+'2.153160180',         # wodowskaz: Piła, rzeka: Gwda
+'2.150200080',         # wodowskaz: Pińczów, rzeka: Nida
+'2.153210190',         # wodowskaz: Pisz, rzeka: Pisa
+'2.151180020',         # wodowskaz: Piwonice, rzeka: Prosna
+'2.150190190',         # wodowskaz: Piwoń, rzeka: Przemsza
+'2.151140020',         # wodowskaz: Pleśno, rzeka: Lubsza
+'2.152230040',         # wodowskaz: Ploski, rzeka: Narew
+'2.151180160',         # wodowskaz: Poddębice, rzeka: Ner
+'2.151180140',         # wodowskaz: Podgórze, rzeka: Widawka
+'2.150150190',         # wodowskaz: Podgórzyn, rzeka: Podgórna
+'2.149180230',         # wodowskaz: Podkępie, rzeka: Wapienica
+'2.149220140',         # wodowskaz: Polana, rzeka: Czarna
+'2.150210100',         # wodowskaz: Połaniec, rzeka: Czarna
+'2.152140130',         # wodowskaz: Połęcko, rzeka: Odra
+'2.150200100',         # wodowskaz: Popędzynka, rzeka: Wisła
+'2.152210150',         # wodowskaz: Popowo, rzeka: Bug
+'2.150190150',         # wodowskaz: Poraj, rzeka: Warta
+'2.150140010',         # wodowskaz: Porajów, rzeka: Nysa Łużycka
+'2.149200010',         # wodowskaz: Poronin, rzeka: Poroniec
+'2.152180060',         # wodowskaz: Posoka, rzeka: Powa
+'2.152160140',         # wodowskaz: Poznań-Most Rocha, rzeka: Warta
+'2.154210020',         # wodowskaz: Prosna, rzeka: Guber
+'2.153220080',         # wodowskaz: Prostki, rzeka: Ełk
+'2.149200170',         # wodowskaz: Proszówki, rzeka: Raba
+'2.150170110',         # wodowskaz: Prudnik, rzeka: Prudnik
+'2.154180270',         # wodowskaz: Pruszcz Gdański, rzeka: Radunia
+'2.154180260',         # wodowskaz: Pruszcz Gdański_Kanał, rzeka: Kanał Raduński
+'2.154210080',         # wodowskaz: Prynowo, rzeka: Węgorapa
+'2.153220140',         # wodowskaz: Przechody, rzeka: Ełk
+'2.150190120',         # wodowskaz: Przeczyce, rzeka: Przemsza
+'2.151190090',         # wodowskaz: Przedbórz, rzeka: Pilica
+'2.149220190',         # wodowskaz: Przemyśl, rzeka: San
+'2.151140030',         # wodowskaz: Przewoźniki, rzeka: Skroda
+'2.151140040',         # wodowskaz: Przewóz, rzeka: Nysa Łużycka
+'2.154210060',         # wodowskaz: Przystań, rzeka: Jez. Mamry
+'2.149180220',         # wodowskaz: Pszczyna, rzeka: Pszczynka
+'2.153210170',         # wodowskaz: Ptaki, rzeka: Pisa
+'2.153160210',         # wodowskaz: Ptusza, rzeka: Gwda
+'2.154180090',         # wodowskaz: Puck, rzeka: Bałtyk
+'2.149210150',         # wodowskaz: Puławy, rzeka: Wisłok
+'2.151210190',         # wodowskaz: Puławy-Azoty, rzeka: Wisła
+'2.150210130',         # wodowskaz: Pustków, rzeka: Wisłoka
+'2.150190170',         # wodowskaz: Pustynia, rzeka: Wisła
+'2.150180170',         # wodowskaz: Pyskowice, rzeka: Drama
+'2.150180150',         # wodowskaz: Pyskowice-Dzierżno, rzeka: Kłodnica
+'2.150180160',         # wodowskaz: Pyskowice-Dzierżno, rzeka: Drama
+'2.152170080',         # wodowskaz: Pyzdry, rzeka: Warta
+'2.149190340',         # wodowskaz: Rabka 2, rzeka: Raba
+'2.150180060',         # wodowskaz: Racibórz-Miedonia, rzeka: Odra
+'2.150170180',         # wodowskaz: Racławice Śląskie, rzeka: Osobłoga
+'2.150190080',         # wodowskaz: Radocha, rzeka: Przemsza
+'2.150210210',         # wodowskaz: Radomyśl, rzeka: San
+'2.149190270',         # wodowskaz: Radziszów, rzeka: Skawinka
+'2.149190050',         # wodowskaz: Rajcza, rzeka: Soła
+'2.153220190',         # wodowskaz: Rajgród , rzeka: Jez. Rajgrodzkie
+'2.153220200',         # wodowskaz: Rajgród , rzeka: Jegrznia
+'2.150210010',         # wodowskaz: Raków, rzeka: Czarna
+'2.153150050',         # wodowskaz: Resko, rzeka: Rega
+'2.151140050',         # wodowskaz: Ręczyn, rzeka: Witka
+'2.153190120',         # wodowskaz: Rodzone, rzeka: Drwęca
+'2.151210060',         # wodowskaz: Rogożek, rzeka: Radomka
+'2.151180170',         # wodowskaz: Rogóźno, rzeka: Widawka
+'2.153180150',         # wodowskaz: Rogóźno 2, rzeka: Osa
+'2.149210010',         # wodowskaz: Ropa, rzeka: Ropa
+'2.150220020',         # wodowskaz: Ruda Jastkowska, rzeka: Bukowa
+'2.150180110',         # wodowskaz: Ruda Kozielska, rzeka: Ruda
+'2.149190160',         # wodowskaz: Rudze, rzeka: Wieprzówka
+'2.150180280',         # wodowskaz: Rybnik-Gotartowice, rzeka: Ruda
+'2.150180130',         # wodowskaz: Rybnik-Stodoły, rzeka: Ruda
+'2.149220160',         # wodowskaz: Rybotycze, rzeka: Wiar
+'2.151160160',         # wodowskaz: Rydzyna, rzeka: Polski Rów
+'2.150210040',         # wodowskaz: Rzepin, rzeka: Świślina
+'2.151160080',         # wodowskaz: Rzeszotary, rzeka: Czarna Woda
+'2.150220010',         # wodowskaz: Rzeszów, rzeka: Wisłok
+'2.150220070',         # wodowskaz: Rzuchów, rzeka: San
+'2.151160020',         # wodowskaz: Rzymówka, rzeka: Kaczawa
+'2.152170120',         # wodowskaz: Samarzewo, rzeka: Wrześnica
+'2.150210170',         # wodowskaz: Sandomierz, rzeka: Wisła
+'2.152150080',         # wodowskaz: Santok, rzeka: Warta
+'2.152150090',         # wodowskaz: Santok, rzeka: Noteć
+'2.150220040',         # wodowskaz: Sarzyna, rzeka: Trzebośnica
+'2.154210010',         # wodowskaz: Sępopol, rzeka: Łyna
+'2.152230120',         # wodowskaz: Siemianówka, rzeka: Narew
+'2.149210160',         # wodowskaz: Sieniawa, rzeka: Wisłok
+'2.150140020',         # wodowskaz: Sieniawka, rzeka: Nysa Łużycka
+'2.151180080',         # wodowskaz: Sieradz, rzeka: Warta
+'2.150200060',         # wodowskaz: Sierosławice, rzeka: Wisła
+'2.149190220',         # wodowskaz: Skawica Dolna, rzeka: Skawica
+'2.149180100',         # wodowskaz: Skoczów, rzeka: Wisła
+'2.150170140',         # wodowskaz: Skorogoszcz, rzeka: Nysa Kłodzka
+'2.152150110',         # wodowskaz: Skwierzyna, rzeka: Warta
+'2.152180050',         # wodowskaz: Sławsk, rzeka: Warta
+'2.150200090',         # wodowskaz: Słowik, rzeka: Bobrza
+'2.152140050',         # wodowskaz: Słubice, rzeka: Odra
+'2.154170010',         # wodowskaz: Słupsk, rzeka: Słupia
+'2.154200030',         # wodowskaz: Smolajny, rzeka: Łyna
+'2.150190260',         # wodowskaz: Smolice, rzeka: Wisła
+'2.154170060',         # wodowskaz: Smołdzino, rzeka: Łupawa
+'2.153170140',         # wodowskaz: Smukała, rzeka: Brda
+'2.151220100',         # wodowskaz: Sobianowice, rzeka: Bystrzyca
+'2.153230080',         # wodowskaz: Sochonie, rzeka: Czarna
+'2.153230140',         # wodowskaz: Sokołda, rzeka: Sokołda
+'2.150150200',         # wodowskaz: Sosnówka, rzeka: Sośniak
+'2.154170120',         # wodowskaz: Soszyca, rzeka: Słupia
+'2.151200020',         # wodowskaz: Spała, rzeka: Pilica
+'2.149200140',         # wodowskaz: Sromowce Wyżne, rzeka: Dunajec
+'2.150180100',         # wodowskaz: Staniszcze Wielkie, rzeka: Mała Panew
+'2.153150010',         # wodowskaz: Stargard, rzeka: Ina
+'2.154160070',         # wodowskaz: Stary Kraków, rzeka: Wieprza
+'2.152150020',         # wodowskaz: Stary Raduszec, rzeka: Bóbr
+'2.149200220',         # wodowskaz: Stary Sącz, rzeka: Poprad
+'2.150210060',         # wodowskaz: Staszów, rzeka: Czarna
+'2.149200130',         # wodowskaz: Stradomka, rzeka: Stradomka
+'2.153220130',         # wodowskaz: Strękowa Góra, rzeka: Narew
+'2.149190310',         # wodowskaz: Stróża, rzeka: Raba
+'2.150240010',         # wodowskaz: Strzyżów, rzeka: Bug
+'2.149220180',         # wodowskaz: Stuposiany, rzeka: Wołosaty
+'2.149190200',         # wodowskaz: Sucha Beskidzka, rzeka: Stryszawka
+'2.149190210',         # wodowskaz: Sucha Beskidzka, rzeka: Skawa
+'2.154180180',         # wodowskaz: Suchy Dąb, rzeka: Bielawa
+'2.151190100',         # wodowskaz: Sulejów (Kopalnia), rzeka: Pilica
+'2.153230110',         # wodowskaz: Supraśl, rzeka: Supraśl
+'2.152220080',         # wodowskaz: Suraż, rzeka: Narew
+'2.150190070',         # wodowskaz: Szabelnia, rzeka: Brynica
+'2.149200020',         # wodowskaz: Szaflary, rzeka: Biały Dunajec
+'2.150160110',         # wodowskaz: Szalejów Dolny, rzeka: Bystrzyca Dusznicka
+'2.149220020',         # wodowskaz: Szczawne, rzeka: Osława
+'2.153140050',         # wodowskaz: Szczecin Most Długi, rzeka: Odra
+'2.153140190',         # wodowskaz: Szczecin Podjuchy, rzeka: Odra
+'2.151190020',         # wodowskaz: Szczerców, rzeka: Widawka
+'2.150210020',         # wodowskaz: Szczucin, rzeka: Wisła
+'2.153210140',         # wodowskaz: Szkwa, rzeka: Szkwa
+'2.151150120',         # wodowskaz: Szprotawa, rzeka: Bóbr
+'2.151150130',         # wodowskaz: Szprotawa, rzeka: Szprotawa
+'2.153200020',         # wodowskaz: Szreńsk, rzeka: Mławka
+'2.153230070',         # wodowskaz: Sztabin, rzeka: Biebrza
+'2.153200090',         # wodowskaz: Szypry, rzeka: Jez. Wadąg
+'2.151160130',         # wodowskaz: Ścinawa, rzeka: Odra
+'2.151160230',         # wodowskaz: Ślęza, rzeka: Ślęza
+'2.152170010',         # wodowskaz: Śrem, rzeka: Warta
+'2.150160020',         # wodowskaz: Świebodzice, rzeka: Pełcznica
+'2.152150010',         # wodowskaz: Świerkocin, rzeka: Warta
+'2.151150170',         # wodowskaz: Świerzawa, rzeka: Kaczawa
+'2.153140010',         # wodowskaz: Świnoujście, rzeka: Bałtyk
+'2.151220080',         # wodowskaz: Tchórzew, rzeka: Tyśmienica
+'2.154180150',         # wodowskaz: Tczew, rzeka: Wisła
+'2.149220100',         # wodowskaz: Terka, rzeka: Solinka
+'2.150160080',         # wodowskaz: Tłumaczów, rzeka: Ścinawka
+'2.150200040',         # wodowskaz: Tokarnia, rzeka: Czarna Nida
+'2.154190090',         # wodowskaz: Tolkmicko, rzeka: Zalew Wiślany
+'2.153200040',         # wodowskaz: Tomaryny, rzeka: Pasłęka
+'2.149210060',         # wodowskaz: Topoliny, rzeka: Ropa
+'2.153180090',         # wodowskaz: Toruń, rzeka: Wisła
+'2.151230010',         # wodowskaz: Trawniki, rzeka: Wieprz
+'2.152170150',         # wodowskaz: Trąbczyn, rzeka: Bawół
+'2.151170030',         # wodowskaz: Trestno, rzeka: Odra
+'2.149200110',         # wodowskaz: Trybsz 2, rzeka: Białka
+'2.150220080',         # wodowskaz: Tryńcza, rzeka: Wisłok
+'2.152200020',         # wodowskaz: Trzciniec, rzeka: Wkra
+'2.154150010',         # wodowskaz: Trzebiatów, rzeka: Rega
+'2.153140040',         # wodowskaz: Trzebież, rzeka: Zalew Szczeciński
+'2.153170120',         # wodowskaz: Tuchola, rzeka: Brda
+'2.154190020',         # wodowskaz: Tujsk, rzeka: Szkarpawa
+'2.150180020',         # wodowskaz: Turawa, rzeka: Mała Panew
+'2.150140030',         # wodowskaz: Turoszów, rzeka: Miedzianka
+'2.153160020',         # wodowskaz: Tychówko, rzeka: Parsęta
+'2.149200150',         # wodowskaz: Tylmanowa, rzeka: Ochotnica
+'2.149190040',         # wodowskaz: Ujsoły, rzeka: Woda Ujsolska
+'2.153160170',         # wodowskaz: Ujście, rzeka: Noteć
+'2.150170130',         # wodowskaz: Ujście Nysy Kłodzkiej, rzeka: Odra
+'2.151180110',         # wodowskaz: Uniejów, rzeka: Warta
+'2.154160110',         # wodowskaz: Ustka, rzeka: Bałtyk
+'2.149180110',         # wodowskaz: Ustroń-Obłaziec, rzeka: Wisła
+'2.149190180',         # wodowskaz: Wadowice, rzeka: Skawa
+'2.153210120',         # wodowskaz: Walery, rzeka: Rozoga
+'2.150210070',         # wodowskaz: Wampierzów, rzeka: Breń
+'2.152210010',         # wodowskaz: Warszawa, rzeka: Wisła
+'2.152210040',         # wodowskaz: Warszawa-Nadwilanówka Śl, rzeka: Wisła
+'2.151210010',         # wodowskaz: Wąchock, rzeka: Kamienna
+'2.150190280',         # wodowskaz: Wąsosz, rzeka: Pilica
+'2.154180080',         # wodowskaz: Wejherowo, rzeka: Reda
+'2.154210070',         # wodowskaz: Węgorzewo, rzeka: Węgorapa
+'2.151180150',         # wodowskaz: Widawa, rzeka: Nieciecz
+'2.153140020',         # wodowskaz: Widuchowa, rzeka: Odra
+'2.150160210',         # wodowskaz: Wilkanów, rzeka: Wilczka
+'2.151160070',         # wodowskaz: Winnica, rzeka: Nysa Szalona
+'2.149180140',         # wodowskaz: Wisła, rzeka: Wisła
+'2.149180160',         # wodowskaz: Wisła-Czarne, rzeka: Wisła
+'2.149180180',         # wodowskaz: Wisła-Czarne (Biała Wisełka), rzeka: Biała Wisełka
+'2.149180200',         # wodowskaz: Wisła-Czarne (Czarna Wisełka), rzeka: Wisła
+'2.154180170',         # wodowskaz: Wiślina, rzeka: Motława
+'2.153220070',         # wodowskaz: Wizna, rzeka: Narew
+'2.154180100',         # wodowskaz: Władysławowo, rzeka: Bałtyk
+'2.150210220',         # wodowskaz: Włochy, rzeka: Pokrzywianka
+'2.152190030',         # wodowskaz: Włocławek, rzeka: Wisła
+'2.151230040',         # wodowskaz: Włodawa, rzeka: Bug
+'2.150150100',         # wodowskaz: Wojanów, rzeka: Bóbr
+'2.153140060',         # wodowskaz: Wolin, rzeka: Cieśnina Dziwna
+'2.152210070',         # wodowskaz: Wólka Mlądzka, rzeka: Świder
+'2.152160050',         # wodowskaz: Wronki, rzeka: Warta
+'2.152200150',         # wodowskaz: Wychódźc, rzeka: Wisła
+'2.153170040',         # wodowskaz: Wyrzysk, rzeka: Łobżonka
+'2.152210090',         # wodowskaz: Wyszków, rzeka: Bug
+'2.152200030',         # wodowskaz: Wyszogród, rzeka: Wisła
+'2.149180210',         # wodowskaz: Zabrzeg, rzeka: Wisła
+'2.152230200',         # wodowskaz: Zabuże, rzeka: Bug
+'2.149220050',         # wodowskaz: Zagórz, rzeka: Osława
+'2.151150160',         # wodowskaz: Zagrodno, rzeka: Skora
+'2.150220120',         # wodowskaz: Zakłodzie, rzeka: Pór
+'2.149190380',         # wodowskaz: Zakopane-Harenda, rzeka: Biały Dunajec
+'2.152220010',         # wodowskaz: Zaliwie-Piegawki, rzeka: Liwiec
+'2.152210060',         # wodowskaz: Zambski Kościelne, rzeka: Narew
+'2.150220130',         # wodowskaz: Zapałów, rzeka: Lubaczówka
+'2.153210180',         # wodowskaz: Zaruzie, rzeka: Ruż
+'2.149190170',         # wodowskaz: Zator, rzeka: Skawa
+'2.149220130',         # wodowskaz: Zatwarnica, rzeka: San
+'2.153230060',         # wodowskaz: Zawady, rzeka: Biała
+'2.153220180',         # wodowskaz: Zawady , rzeka: Ślina
+'2.150210190',         # wodowskaz: Zawichost, rzeka: Wisła
+'2.149210100',         # wodowskaz: Zboiska, rzeka: Jasiołka
+'2.150170010',         # wodowskaz: Zborowice, rzeka: Oława
+'2.151170050',         # wodowskaz: Zbytowa, rzeka: Widawa
+'2.149200280',         # wodowskaz: Zgłobice, rzeka: Dunajec
+'2.151140060',         # wodowskaz: Zgorzelec, rzeka: Nysa Łużycka
+'2.151150010',         # wodowskaz: Zgorzelec, rzeka: Czerwona Woda
+'2.149190090',         # wodowskaz: Żabnica, rzeka: Żabniczanka
+'2.150200170',         # wodowskaz: Żabno, rzeka: Dunajec
+'2.151150070',         # wodowskaz: Żagań, rzeka: Czerna Wielka
+'2.151150080',         # wodowskaz: Żagań, rzeka: Bóbr
+'2.149210130',         # wodowskaz: Żarnowa, rzeka: Wisłok
+'2.150160200',         # wodowskaz: Żelazno, rzeka: Biała Lądecka
+'2.149210070',         # wodowskaz: Żółków, rzeka: Wisłoka
+'2.154190080',         # wodowskaz: Żukowo, rzeka: Jez. Druzno
+'2.152200050',         # wodowskaz: Żuków, rzeka: Bzura
+'2.149190100',         # wodowskaz: Żywiec, rzeka: Soła

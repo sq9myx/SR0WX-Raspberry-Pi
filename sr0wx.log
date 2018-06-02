@@ -1,0 +1,865 @@
+2018-06-02 18:30:07,772 root INFO: sr0wx.py started
+2018-06-02 18:30:07,774 root INFO: 
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+
+2018-06-02 18:30:07,774 root INFO: starting <activity_map.ActivityMap object at 0x716e5110>...
+2018-06-02 18:30:07,776 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 18:30:07,915 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 18:30:07,915 root INFO: starting <meteo_sq9atk.MeteoSq9atk object at 0x71e25530>...
+2018-06-02 18:30:07,917 meteo_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:30:11,944 root INFO: starting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x74198b10>...
+2018-06-02 18:30:11,945 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 18:30:12,462 root ERROR: Exception when running <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x74198b10>
+Traceback (most recent call last):
+  File "sr0wx.py", line 161, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 45: ordinal not in range(128)
+2018-06-02 18:30:12,463 root INFO: starting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x716e5330>...
+2018-06-02 18:30:12,465 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 18:30:19,590 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 18:30:19,596 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 18:30:19,597 root INFO: starting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x71e259b0>...
+2018-06-02 18:30:19,599 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 18:30:19,829 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:30:20,161 root INFO: starting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x71e25cb0>...
+2018-06-02 18:30:20,162 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 18:30:21,084 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:30:21,085 root INFO: starting <radioactive_sq9atk.RadioactiveSq9atk object at 0x716e5090>...
+2018-06-02 18:30:21,086 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 18:30:21,464 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:30:21,471 root INFO: starting <calendar_sq9atk.CalendarSq9atk object at 0x71e256f0>...
+2018-06-02 18:30:21,473 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 18:30:22,408 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:30:22,477 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej stan_pogody_z_godziny osiemnasta trzydziesci _ pochmurno temperatura dwadziescia siedem stopni_celsjusza pokrywa_chmur sto procent predkosc_wiatru czternascie kilometrow_na_godzine cisnienie tysiac czternascie hektopaskali wilgotnosc czterdziesci dziewiec procent _ prognoza_na_nastepne cztery godziny _ bezchmurnie temperatura dwadziescia jeden stopni_celsjusza pokrywa_chmur zero procent predkosc_wiatru dziesiec kilometrow_na_godzine cisnienie tysiac pietnascie hektopaskali wilgotnosc siedemdziesiat trzy procent _ prognoza_na_nastepne dwanascie godzin _ przelotne_opady_deszczu temperatura szesnascie stopni_celsjusza pokrywa_chmur zero procent predkosc_wiatru trzynascie kilometrow_na_godzine cisnienie tysiac szesnascie hektopaskali wilgotnosc dziewiecdziesiat siedem procent _ _ informacja_o_skaz_eniu_powietrza _ stacja_pomiarowa z_ywiec_ul_kopernika__83_a pyl__zawieszony_pm10 dwadziescia mikrogramo_w na_metr_szes_cienny poziom_bardzo_dobry dwutlenek_azotu cztery mikrogramy na_metr_szes_cienny poziom_bardzo_dobry sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ _ poziom_promieniowania _ wartos_c__aktualna dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ s_rednia_wartos_c__dobowa dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ _ kalendarium _ wscho_d_sl_on_ca godzina czwarta czterdziesci _ zacho_d_sl_on_ca godzina dwudziesta czterdziesci jeden _ zrodlo imgw gis_meteo radioactiveathome_org calendar_zoznam_sk tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 18:30:22,480 root INFO: loading sound samples...
+2018-06-02 18:30:22,480 root INFO: playing sound samples
+2018-06-02 18:33:03,493 root INFO: finishing...
+2018-06-02 18:33:04,621 root INFO: goodbye
+2018-06-02 18:47:54,715 root INFO: sr0wx.py started
+2018-06-02 18:47:54,716 root INFO: 
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+
+2018-06-02 18:47:54,718 root INFO: starting <activity_map.ActivityMap object at 0x740331b0>...
+2018-06-02 18:47:54,719 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 18:47:55,410 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 18:47:55,411 root INFO: starting <openweather_sq9atk.OpenWeatherSq9atk object at 0x740b2210>...
+2018-06-02 18:47:55,412 openweather_sq9atk INFO: ::: Pobieram aktualne dane pogodowe...
+2018-06-02 18:47:55,412 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/weather?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 18:47:55,556 root ERROR: Exception when running <openweather_sq9atk.OpenWeatherSq9atk object at 0x740b2210>
+Traceback (most recent call last):
+  File "sr0wx.py", line 157, in <module>
+    module_data = module.get_data()
+  File "/home/pi/sr0wx.py/openweather_sq9atk.py", line 147, in get_data
+    weatherJson = JSON.loads( self.downloadFile(weather_service_url) )
+  File "/home/pi/sr0wx.py/openweather_sq9atk.py", line 87, in downloadFile
+    webFile = urllib2.urlopen(url)
+  File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 435, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.7/urllib2.py", line 548, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.7/urllib2.py", line 473, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 556, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 401: Unauthorized
+2018-06-02 18:47:55,643 root INFO: starting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x74144a90>...
+2018-06-02 18:47:55,645 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 18:47:56,313 root INFO: starting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x74033830>...
+2018-06-02 18:47:56,315 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 18:47:57,449 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 18:47:57,461 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 18:47:57,463 root INFO: starting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x740b7110>...
+2018-06-02 18:47:57,465 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 18:47:57,870 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:47:58,336 root ERROR: Exception when running <air_pollution_sq9atk.AirPollutionSq9atk object at 0x740b7110>
+Traceback (most recent call last):
+  File "sr0wx.py", line 161, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 48: ordinal not in range(128)
+2018-06-02 18:47:58,340 root INFO: starting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x740bd450>...
+2018-06-02 18:47:58,342 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 18:47:59,756 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:47:59,758 root INFO: starting <radioactive_sq9atk.RadioactiveSq9atk object at 0x74033370>...
+2018-06-02 18:47:59,760 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 18:47:59,976 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:47:59,991 root ERROR: Exception when running <radioactive_sq9atk.RadioactiveSq9atk object at 0x74033370>
+Traceback (most recent call last):
+  File "sr0wx.py", line 161, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 48: ordinal not in range(128)
+2018-06-02 18:47:59,994 root INFO: starting <calendar_sq9atk.CalendarSq9atk object at 0x740bd410>...
+2018-06-02 18:47:59,996 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 18:48:01,200 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:48:05,569 root ERROR: Exception when running <calendar_sq9atk.CalendarSq9atk object at 0x740bd410>
+Traceback (most recent call last):
+  File "sr0wx.py", line 161, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 48: ordinal not in range(128)
+2018-06-02 18:48:06,622 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej zagrozenia_meteorologiczne_dla_wojewodztwa śląskiego _ dzis _ burze poziom_zagrozenia sredni _ jutro _ burze poziom_zagrozenia sredni _ _ _ sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ zrodlo meteoalarm_eu imgw gis_meteo tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 18:48:06,624 root INFO: loading sound samples...
+2018-06-02 18:48:06,626 root INFO: playing sound samples
+2018-06-02 18:49:03,383 root INFO: finishing...
+2018-06-02 18:49:04,508 root INFO: goodbye
+2018-06-02 18:57:32,735 root INFO: [93msr0wx.py started[0m
+2018-06-02 18:57:32,735 root INFO: [94m
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+[0m
+2018-06-02 18:57:32,736 root INFO: [92mstarting <activity_map.ActivityMap object at 0x74074690>...[0m
+2018-06-02 18:57:32,737 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 18:57:32,985 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 18:57:33,518 root INFO: [92mstarting <openweather_sq9atk.OpenWeatherSq9atk object at 0x740e9710>...[0m
+2018-06-02 18:57:33,519 openweather_sq9atk INFO: ::: Pobieram aktualne dane pogodowe...
+2018-06-02 18:57:33,520 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/weather?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 18:57:33,671 openweather_sq9atk INFO: ::: Pobieram dane prognozy pogody...
+2018-06-02 18:57:33,671 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/forecast?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 18:57:34,054 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:57:34,106 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:57:34,108 root INFO: [92mstarting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x741a4e30>...[0m
+2018-06-02 18:57:34,109 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 18:57:34,890 root ERROR: [91mException when running <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x741a4e30>[0m
+Traceback (most recent call last):
+  File "sr0wx.py", line 173, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 45: ordinal not in range(128)
+2018-06-02 18:57:34,893 root INFO: [92mstarting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x74074910>...[0m
+2018-06-02 18:57:34,894 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 18:57:39,812 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 18:57:39,823 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 18:57:39,825 root INFO: [92mstarting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x7406efb0>...[0m
+2018-06-02 18:57:39,826 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 18:57:40,070 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:57:40,733 root INFO: [92mstarting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x74074250>...[0m
+2018-06-02 18:57:40,735 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 18:57:41,149 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:57:41,150 root INFO: [92mstarting <radioactive_sq9atk.RadioactiveSq9atk object at 0x740745d0>...[0m
+2018-06-02 18:57:41,151 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 18:57:41,362 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:57:41,375 root INFO: [92mstarting <calendar_sq9atk.CalendarSq9atk object at 0x740fb5b0>...[0m
+2018-06-02 18:57:41,377 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 18:57:42,156 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 18:57:42,196 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej stan_pogody_z_godziny osiemnasta piecdziesiat siedem _ bezchmurnie _ temperatura dwadziescia jeden stopni_celsjusza cisnienie tysiac trzynascie hektopaskali wilgotnosc czterdziesci szesc procent _ predkosc_wiatru cztery metry_na_sekunde czternascie kilometrow_na_godzine _ wiatr polnocno wschodni czterdziesci stopni _ prognoza_na_nastepne cztery godziny _ bezchmurnie _ temperatura trzynascie stopni_celsjusza cisnienie tysiac dwadziescia hektopaskali wilgotnosc szescdziesiat piec procent _ predkosc_wiatru dwa metry_na_sekunde dziesiec kilometrow_na_godzine _ wiatr polnocny jedenascie stopni _ prognoza_na_nastepne dwanascie godzin _ bezchmurnie _ temperatura osiemnascie stopni_celsjusza cisnienie tysiac dwadziescia jeden hektopaskali wilgotnosc siedemdziesiat procent _ predkosc_wiatru dwa metry_na_sekunde siedem kilometrow_na_godzine _ wiatr polnocny trzysta czterdziesci szesc stopni _ _ informacja_o_skaz_eniu_powietrza _ stacja_pomiarowa z_ywiec_ul_kopernika__83_a _ pyl__zawieszony_pm10 dwadziescia mikrogramo_w na_metr_szes_cienny poziom_bardzo_dobry _ dwutlenek_azotu cztery mikrogramy na_metr_szes_cienny poziom_bardzo_dobry _ _ sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ _ poziom_promieniowania _ wartos_c__aktualna osiem dziesia_tych mikrosjiwerta na_godzine_ _ s_rednia_wartos_c__dobowa dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ _ kalendarium _ wscho_d_sl_on_ca godzina czwarta czterdziesci _ zacho_d_sl_on_ca godzina dwudziesta czterdziesci jeden _ zrodlo open_weather_map imgw gis_meteo radioactiveathome_org calendar_zoznam_sk tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 18:57:42,198 root INFO: loading sound samples...
+2018-06-02 18:57:42,198 root INFO: playing sound samples
+
+2018-06-02 18:57:42,864 root WARNING: Couldn't find pl_google/wiatr.ogg
+2018-06-02 18:57:45,182 root WARNING: Couldn't find pl_google/open_weather_map.ogg
+2018-06-02 19:00:44,264 root INFO: [93mfinishing...[0m
+2018-06-02 19:00:45,387 root INFO: [93mgoodbye[0m
+2018-06-02 19:02:13,811 root INFO: [93msr0wx.py started[0m
+2018-06-02 19:02:13,812 root INFO: [94m
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+[0m
+2018-06-02 19:02:13,812 root INFO: [92mstarting <activity_map.ActivityMap object at 0x7406d690>...[0m
+2018-06-02 19:02:13,813 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 19:02:14,062 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 19:02:14,062 root INFO: [92mstarting <openweather_sq9atk.OpenWeatherSq9atk object at 0x740e2710>...[0m
+2018-06-02 19:02:14,063 openweather_sq9atk INFO: ::: Pobieram aktualne dane pogodowe...
+2018-06-02 19:02:14,064 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/weather?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:02:14,490 openweather_sq9atk INFO: ::: Pobieram dane prognozy pogody...
+2018-06-02 19:02:14,490 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/forecast?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:02:14,709 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:02:14,759 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:02:14,761 root INFO: [92mstarting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x7419de30>...[0m
+2018-06-02 19:02:14,762 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 19:02:15,083 root ERROR: [91mException when running <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x7419de30>[0m
+Traceback (most recent call last):
+  File "sr0wx.py", line 173, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 45: ordinal not in range(128)
+2018-06-02 19:02:15,090 root INFO: [92mstarting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x7406d910>...[0m
+2018-06-02 19:02:15,092 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 19:02:17,014 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 19:02:17,020 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 19:02:17,021 root INFO: [92mstarting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x74067fb0>...[0m
+2018-06-02 19:02:17,021 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 19:02:17,266 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:02:18,693 root INFO: [92mstarting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x7406d250>...[0m
+2018-06-02 19:02:18,694 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 19:02:19,262 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:02:19,721 root INFO: [92mstarting <radioactive_sq9atk.RadioactiveSq9atk object at 0x7406d5d0>...[0m
+2018-06-02 19:02:19,722 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 19:02:19,928 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:02:19,942 root INFO: [92mstarting <calendar_sq9atk.CalendarSq9atk object at 0x740f45b0>...[0m
+2018-06-02 19:02:19,944 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 19:02:20,633 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:02:20,673 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej stan_pogody_z_godziny dziewietnasta dwa _ bezchmurnie _ temperatura dwadziescia jeden stopni_celsjusza cisnienie tysiac trzynascie hektopaskali wilgotnosc czterdziesci szesc procent _ predkosc_wiatru cztery metry_na_sekunde czternascie kilometrow_na_godzine _ wiatr polnocno wschodni czterdziesci stopni _ prognoza_na_nastepne cztery godziny _ bezchmurnie _ temperatura trzynascie stopni_celsjusza cisnienie tysiac dwadziescia hektopaskali wilgotnosc szescdziesiat piec procent _ predkosc_wiatru dwa metry_na_sekunde dziesiec kilometrow_na_godzine _ wiatr polnocny jedenascie stopni _ prognoza_na_nastepne dwanascie godzin _ bezchmurnie _ temperatura osiemnascie stopni_celsjusza cisnienie tysiac dwadziescia jeden hektopaskali wilgotnosc siedemdziesiat procent _ predkosc_wiatru dwa metry_na_sekunde siedem kilometrow_na_godzine _ wiatr polnocny trzysta czterdziesci szesc stopni _ _ informacja_o_skaz_eniu_powietrza _ stacja_pomiarowa z_ywiec_ul_kopernika__83_a _ pyl__zawieszony_pm10 dwadziescia mikrogramo_w na_metr_szes_cienny poziom_bardzo_dobry _ dwutlenek_azotu cztery mikrogramy na_metr_szes_cienny poziom_bardzo_dobry _ _ sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ _ poziom_promieniowania _ wartos_c__aktualna osiem dziesia_tych mikrosjiwerta na_godzine_ _ s_rednia_wartos_c__dobowa dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ _ kalendarium _ wscho_d_sl_on_ca godzina czwarta czterdziesci _ zacho_d_sl_on_ca godzina dwudziesta czterdziesci jeden _ zrodlo open_weather_map imgw gis_meteo radioactiveathome_org calendar_zoznam_sk tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 19:02:20,674 root INFO: loading sound samples...
+2018-06-02 19:02:20,675 root INFO: playing sound samples
+
+2018-06-02 19:02:21,054 root WARNING: Couldn't find pl_google/wiatr.ogg
+2018-06-02 19:09:23,612 root INFO: [93msr0wx.py started[0m
+2018-06-02 19:09:23,614 root INFO: [94m
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+[0m
+2018-06-02 19:09:23,618 root INFO: [92mstarting <activity_map.ActivityMap object at 0x73fd2690>...[0m
+2018-06-02 19:09:23,620 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 19:09:23,873 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 19:09:23,874 root INFO: [92mstarting <openweather_sq9atk.OpenWeatherSq9atk object at 0x74047710>...[0m
+2018-06-02 19:09:23,876 openweather_sq9atk INFO: ::: Pobieram aktualne dane pogodowe...
+2018-06-02 19:09:23,877 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/weather?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:09:23,983 openweather_sq9atk INFO: ::: Pobieram dane prognozy pogody...
+2018-06-02 19:09:23,984 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/forecast?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:09:24,104 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:09:24,133 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:09:24,134 root INFO: [92mstarting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x74102e30>...[0m
+2018-06-02 19:09:24,135 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 19:09:24,468 root ERROR: [91mException when running <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x74102e30>[0m
+Traceback (most recent call last):
+  File "sr0wx.py", line 168, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 45: ordinal not in range(128)
+2018-06-02 19:09:24,469 root INFO: [92mstarting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x73fd2910>...[0m
+2018-06-02 19:09:24,470 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 19:09:24,750 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 19:09:24,756 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 19:09:24,757 root INFO: [92mstarting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x73fccfb0>...[0m
+2018-06-02 19:09:24,758 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 19:09:24,993 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:09:25,393 root INFO: [92mstarting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x73fd2250>...[0m
+2018-06-02 19:09:25,394 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 19:09:27,749 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:09:27,751 root INFO: [92mstarting <radioactive_sq9atk.RadioactiveSq9atk object at 0x73fd25d0>...[0m
+2018-06-02 19:09:27,753 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 19:09:27,997 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:09:28,012 root INFO: [92mstarting <calendar_sq9atk.CalendarSq9atk object at 0x740595b0>...[0m
+2018-06-02 19:09:28,013 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 19:09:29,168 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:09:29,454 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej stan_pogody_z_godziny dziewietnasta dziewiec _ bezchmurnie _ temperatura dwadziescia jeden stopni_celsjusza cisnienie tysiac trzynascie hektopaskali wilgotnosc czterdziesci szesc procent _ predkosc_wiatru cztery metry_na_sekunde czternascie kilometrow_na_godzine _ wiatr polnocno wschodni czterdziesci stopni _ prognoza_na_nastepne cztery godziny _ bezchmurnie _ temperatura trzynascie stopni_celsjusza cisnienie tysiac dwadziescia hektopaskali wilgotnosc szescdziesiat piec procent _ predkosc_wiatru dwa metry_na_sekunde dziesiec kilometrow_na_godzine _ wiatr polnocny jedenascie stopni _ prognoza_na_nastepne dwanascie godzin _ bezchmurnie _ temperatura osiemnascie stopni_celsjusza cisnienie tysiac dwadziescia jeden hektopaskali wilgotnosc siedemdziesiat procent _ predkosc_wiatru dwa metry_na_sekunde siedem kilometrow_na_godzine _ wiatr polnocny trzysta czterdziesci szesc stopni _ _ informacja_o_skaz_eniu_powietrza _ stacja_pomiarowa z_ywiec_ul_kopernika__83_a _ pyl__zawieszony_pm10 osiemnascie mikrogramo_w na_metr_szes_cienny poziom_bardzo_dobry _ dwutlenek_azotu trzy mikrogramy na_metr_szes_cienny poziom_bardzo_dobry _ _ sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ _ poziom_promieniowania _ wartos_c__aktualna osiem dziesia_tych mikrosjiwerta na_godzine_ _ s_rednia_wartos_c__dobowa dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ _ kalendarium _ wscho_d_sl_on_ca godzina czwarta czterdziesci _ zacho_d_sl_on_ca godzina dwudziesta czterdziesci jeden _ zrodlo open_weather_map imgw gis_meteo radioactiveathome_org calendar_zoznam_sk tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 19:09:29,455 root INFO: loading sound samples...
+2018-06-02 19:09:29,456 root INFO: playing sound samples
+
+2018-06-02 19:09:29,685 root WARNING: Couldn't find pl_google/wiatr.ogg
+2018-06-02 19:12:28,770 root INFO: [93mfinishing...[0m
+2018-06-02 19:12:29,896 root INFO: [93mgoodbye[0m
+2018-06-02 19:12:45,588 root INFO: [93msr0wx.py started[0m
+2018-06-02 19:12:45,589 root INFO: [94m
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+[0m
+2018-06-02 19:12:45,590 root INFO: [92mstarting <activity_map.ActivityMap object at 0x74079790>...[0m
+2018-06-02 19:12:45,591 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 19:12:45,860 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 19:12:45,861 root INFO: [92mstarting <openweather_sq9atk.OpenWeatherSq9atk object at 0x74136810>...[0m
+2018-06-02 19:12:45,862 openweather_sq9atk INFO: ::: Pobieram aktualne dane pogodowe...
+2018-06-02 19:12:45,862 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/weather?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:12:47,157 openweather_sq9atk INFO: ::: Pobieram dane prognozy pogody...
+2018-06-02 19:12:47,158 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/forecast?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:12:47,912 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:12:47,964 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:12:47,966 root INFO: [92mstarting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x741adf10>...[0m
+2018-06-02 19:12:47,967 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 19:12:48,306 root ERROR: [91mException when running <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x741adf10>[0m
+Traceback (most recent call last):
+  File "sr0wx.py", line 168, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 45: ordinal not in range(128)
+2018-06-02 19:12:48,307 root INFO: [92mstarting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x74079a10>...[0m
+2018-06-02 19:12:48,308 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 19:12:48,593 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 19:12:48,599 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 19:12:48,600 root INFO: [92mstarting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x740790d0>...[0m
+2018-06-02 19:12:48,601 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 19:12:48,838 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:12:49,230 root INFO: [92mstarting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x74079350>...[0m
+2018-06-02 19:12:49,418 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 19:12:49,905 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:12:49,908 root INFO: [92mstarting <radioactive_sq9atk.RadioactiveSq9atk object at 0x740796d0>...[0m
+2018-06-02 19:12:49,909 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 19:12:50,121 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:12:50,135 root INFO: [92mstarting <calendar_sq9atk.CalendarSq9atk object at 0x741426b0>...[0m
+2018-06-02 19:12:50,136 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 19:12:50,838 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:12:50,916 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej stan_pogody_z_godziny dziewietnasta dwanascie _ bezchmurnie _ temperatura dwadziescia jeden stopni_celsjusza cisnienie tysiac czternascie hektopaskali wilgotnosc piecdziesiat dwa procent _ predkosc_wiatru trzy metry_na_sekunde dwanascie kilometrow_na_godzine _ wiatr polnocno wschodni szescdziesiat stopni _ prognoza_na_nastepne cztery godziny _ bezchmurnie _ temperatura trzynascie stopni_celsjusza cisnienie tysiac dwadziescia hektopaskali wilgotnosc szescdziesiat piec procent _ predkosc_wiatru dwa metry_na_sekunde dziesiec kilometrow_na_godzine _ wiatr polnocny jedenascie stopni _ prognoza_na_nastepne dwanascie godzin _ bezchmurnie _ temperatura osiemnascie stopni_celsjusza cisnienie tysiac dwadziescia jeden hektopaskali wilgotnosc siedemdziesiat procent _ predkosc_wiatru dwa metry_na_sekunde siedem kilometrow_na_godzine _ wiatr polnocny trzysta czterdziesci szesc stopni _ _ informacja_o_skaz_eniu_powietrza _ stacja_pomiarowa z_ywiec_ul_kopernika__83_a _ pyl__zawieszony_pm10 osiemnascie mikrogramo_w na_metr_szes_cienny poziom_bardzo_dobry _ dwutlenek_azotu trzy mikrogramy na_metr_szes_cienny poziom_bardzo_dobry _ _ sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ _ poziom_promieniowania _ wartos_c__aktualna osiem dziesia_tych mikrosjiwerta na_godzine_ _ s_rednia_wartos_c__dobowa dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ _ kalendarium _ wscho_d_sl_on_ca godzina czwarta czterdziesci _ zacho_d_sl_on_ca godzina dwudziesta czterdziesci jeden _ zrodlo open_weather_map imgw gis_meteo radioactiveathome_org calendar_zoznam_sk tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 19:12:50,918 root INFO: loading sound samples...
+2018-06-02 19:12:50,919 root INFO: playing sound samples
+
+2018-06-02 19:15:48,918 root INFO: [93mfinishing...[0m
+2018-06-02 19:15:50,046 root INFO: [93mgoodbye[0m
+2018-06-02 19:19:41,018 root INFO: [93msr0wx.py started[0m
+2018-06-02 19:19:41,019 root INFO: [94m
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+[0m
+2018-06-02 19:19:41,019 root INFO: [92mstarting <activity_map.ActivityMap object at 0x73f97770>...[0m
+2018-06-02 19:19:41,020 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 19:19:41,307 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 19:19:41,308 root INFO: [92mstarting <openweather_sq9atk.OpenWeatherSq9atk object at 0x7400e7f0>...[0m
+2018-06-02 19:19:41,308 openweather_sq9atk INFO: ::: Pobieram aktualne dane pogodowe...
+2018-06-02 19:19:41,309 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/weather?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:19:41,420 openweather_sq9atk INFO: ::: Pobieram dane prognozy pogody...
+2018-06-02 19:19:41,421 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/forecast?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:19:41,689 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:19:41,731 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:19:41,732 root INFO: [92mstarting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x740c7ef0>...[0m
+2018-06-02 19:19:41,733 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 19:19:42,121 root ERROR: [91mException when running <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x740c7ef0>[0m
+Traceback (most recent call last):
+  File "sr0wx.py", line 168, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 45: ordinal not in range(128)
+2018-06-02 19:19:42,123 root INFO: [92mstarting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x73f979f0>...[0m
+2018-06-02 19:19:42,125 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 19:19:42,444 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 19:19:42,450 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 19:19:42,451 root INFO: [92mstarting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x73f970b0>...[0m
+2018-06-02 19:19:42,452 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 19:19:42,668 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:19:43,192 root INFO: [92mstarting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x73f97330>...[0m
+2018-06-02 19:19:43,193 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 19:19:43,601 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:19:43,602 root INFO: [92mstarting <radioactive_sq9atk.RadioactiveSq9atk object at 0x73f976b0>...[0m
+2018-06-02 19:19:43,602 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 19:19:43,811 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:19:43,819 root INFO: [92mstarting <calendar_sq9atk.CalendarSq9atk object at 0x74020690>...[0m
+2018-06-02 19:19:43,819 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 19:19:44,627 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:19:45,642 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej stan_pogody_z_godziny dziewietnasta dziewietnascie _ bezchmurnie _ temperatura dwadziescia jeden stopni_celsjusza cisnienie tysiac czternascie hektopaskali wilgotnosc piecdziesiat dwa procent _ predkosc_wiatru trzy metry_na_sekunde dwanascie kilometrow_na_godzine _ wiatr polnocno wschodni szescdziesiat stopni _ prognoza_na_nastepne cztery godziny _ bezchmurnie _ temperatura trzynascie stopni_celsjusza cisnienie tysiac dwadziescia hektopaskali wilgotnosc szescdziesiat piec procent _ predkosc_wiatru dwa metry_na_sekunde dziesiec kilometrow_na_godzine _ wiatr polnocny jedenascie stopni _ prognoza_na_nastepne dwanascie godzin _ bezchmurnie _ temperatura osiemnascie stopni_celsjusza cisnienie tysiac dwadziescia jeden hektopaskali wilgotnosc siedemdziesiat procent _ predkosc_wiatru dwa metry_na_sekunde siedem kilometrow_na_godzine _ wiatr polnocny trzysta czterdziesci szesc stopni _ _ informacja_o_skaz_eniu_powietrza _ stacja_pomiarowa z_ywiec_ul_kopernika__83_a _ pyl__zawieszony_pm10 osiemnascie mikrogramo_w na_metr_szes_cienny poziom_bardzo_dobry _ dwutlenek_azotu trzy mikrogramy na_metr_szes_cienny poziom_bardzo_dobry _ _ sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ _ poziom_promieniowania _ wartos_c__aktualna piec dziesia_tych mikrosjiwerta na_godzine_ _ s_rednia_wartos_c__dobowa dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ _ kalendarium _ wscho_d_sl_on_ca godzina czwarta czterdziesci _ zacho_d_sl_on_ca godzina dwudziesta czterdziesci jeden _ zrodlo open_weather_map imgw gis_meteo radioactiveathome_org calendar_zoznam_sk tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 19:19:46,532 root INFO: loading sound samples...
+2018-06-02 19:19:46,533 root INFO: playing sound samples
+
+2018-06-02 19:22:44,870 root INFO: [93mfinishing...[0m
+2018-06-02 19:22:45,995 root INFO: [93mgoodbye[0m
+2018-06-02 19:24:00,897 root INFO: [93msr0wx.py started[0m
+2018-06-02 19:24:00,898 root INFO: [94m
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+[0m
+2018-06-02 19:24:00,898 root INFO: [92mstarting <activity_map.ActivityMap object at 0x73fc2770>...[0m
+2018-06-02 19:24:00,899 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 19:24:01,160 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 19:24:01,161 root INFO: [92mstarting <openweather_sq9atk.OpenWeatherSq9atk object at 0x740397f0>...[0m
+2018-06-02 19:24:01,162 openweather_sq9atk INFO: ::: Pobieram aktualne dane pogodowe...
+2018-06-02 19:24:01,162 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/weather?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:24:02,267 openweather_sq9atk INFO: ::: Pobieram dane prognozy pogody...
+2018-06-02 19:24:02,268 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/forecast?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:24:02,356 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:24:02,407 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:24:02,409 root INFO: [92mstarting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x740f2ef0>...[0m
+2018-06-02 19:24:02,410 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 19:24:03,609 root ERROR: [91mException when running <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x740f2ef0>[0m
+Traceback (most recent call last):
+  File "sr0wx.py", line 168, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 45: ordinal not in range(128)
+2018-06-02 19:24:04,315 root INFO: [92mstarting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x73fc29f0>...[0m
+2018-06-02 19:24:04,316 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 19:24:04,705 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 19:24:04,711 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 19:24:04,712 root INFO: [92mstarting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x73fc20b0>...[0m
+2018-06-02 19:24:04,713 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 19:24:04,937 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:24:05,367 root INFO: [92mstarting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x73fc2330>...[0m
+2018-06-02 19:24:05,369 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 19:24:05,835 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:24:05,836 root INFO: [92mstarting <radioactive_sq9atk.RadioactiveSq9atk object at 0x73fc26b0>...[0m
+2018-06-02 19:24:05,837 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 19:24:06,042 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:24:06,050 root INFO: [92mstarting <calendar_sq9atk.CalendarSq9atk object at 0x7404b690>...[0m
+2018-06-02 19:24:06,051 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 19:24:06,758 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:24:06,837 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej stan_pogody_z_godziny dziewietnasta dwadziescia cztery _ bezchmurnie _ temperatura dwadziescia jeden stopni_celsjusza cisnienie tysiac czternascie hektopaskali wilgotnosc piecdziesiat dwa procent _ predkosc_wiatru trzy metry_na_sekunde dwanascie kilometrow_na_godzine _ wiatr polnocno wschodni szescdziesiat stopni _ prognoza_na_nastepne cztery godziny _ bezchmurnie _ temperatura trzynascie stopni_celsjusza cisnienie tysiac dwadziescia hektopaskali wilgotnosc szescdziesiat piec procent _ predkosc_wiatru dwa metry_na_sekunde dziesiec kilometrow_na_godzine _ wiatr polnocny jedenascie stopni _ prognoza_na_nastepne dwanascie godzin _ bezchmurnie _ temperatura osiemnascie stopni_celsjusza cisnienie tysiac dwadziescia jeden hektopaskali wilgotnosc siedemdziesiat procent _ predkosc_wiatru dwa metry_na_sekunde siedem kilometrow_na_godzine _ wiatr polnocny trzysta czterdziesci szesc stopni _ _ informacja_o_skaz_eniu_powietrza _ stacja_pomiarowa z_ywiec_ul_kopernika__83_a _ pyl__zawieszony_pm10 osiemnascie mikrogramo_w na_metr_szes_cienny poziom_bardzo_dobry _ dwutlenek_azotu trzy mikrogramy na_metr_szes_cienny poziom_bardzo_dobry _ _ sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ _ poziom_promieniowania _ wartos_c__aktualna piec dziesia_tych mikrosjiwerta na_godzine_ _ s_rednia_wartos_c__dobowa dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ _ kalendarium _ wscho_d_sl_on_ca godzina czwarta czterdziesci _ zacho_d_sl_on_ca godzina dwudziesta czterdziesci jeden _ zrodlo open_weather_map imgw gis_meteo radioactiveathome_org calendar_zoznam_sk tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 19:24:07,030 root INFO: loading sound samples...
+2018-06-02 19:24:07,031 root INFO: playing sound samples
+
+2018-06-02 19:30:03,862 root INFO: [93msr0wx.py started[0m
+2018-06-02 19:30:03,864 root INFO: [94m
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+[0m
+2018-06-02 19:30:03,864 root INFO: [92mstarting <activity_map.ActivityMap object at 0x74078590>...[0m
+2018-06-02 19:30:03,865 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 19:30:03,971 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 19:30:03,972 root INFO: [92mstarting <openweather_sq9atk.OpenWeatherSq9atk object at 0x740ed610>...[0m
+2018-06-02 19:30:03,972 openweather_sq9atk INFO: ::: Pobieram aktualne dane pogodowe...
+2018-06-02 19:30:03,973 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/weather?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:30:04,082 openweather_sq9atk INFO: ::: Pobieram dane prognozy pogody...
+2018-06-02 19:30:04,083 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/forecast?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:30:16,318 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:30:16,388 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:30:16,390 root INFO: [92mstarting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x741a7d10>...[0m
+2018-06-02 19:30:16,391 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 19:30:16,854 root ERROR: [91mException when running <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x741a7d10>[0m
+Traceback (most recent call last):
+  File "sr0wx.py", line 168, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 45: ordinal not in range(128)
+2018-06-02 19:30:16,856 root INFO: [92mstarting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x74078810>...[0m
+2018-06-02 19:30:16,856 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 19:30:24,030 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 19:30:24,041 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 19:30:24,042 root INFO: [92mstarting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x74071eb0>...[0m
+2018-06-02 19:30:24,044 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 19:30:24,270 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:30:24,854 root INFO: [92mstarting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x74078150>...[0m
+2018-06-02 19:30:24,856 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 19:30:25,271 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:30:25,273 root INFO: [92mstarting <radioactive_sq9atk.RadioactiveSq9atk object at 0x740784d0>...[0m
+2018-06-02 19:30:25,274 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 19:30:25,503 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:30:25,517 root INFO: [92mstarting <calendar_sq9atk.CalendarSq9atk object at 0x740ff4b0>...[0m
+2018-06-02 19:30:25,518 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 19:30:26,345 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:30:26,455 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej stan_pogody_z_godziny dziewietnasta trzydziesci _ bezchmurnie _ temperatura dwadziescia jeden stopni_celsjusza cisnienie tysiac czternascie hektopaskali wilgotnosc piecdziesiat dwa procent _ predkosc_wiatru trzy metry_na_sekunde dwanascie kilometrow_na_godzine _ wiatr polnocno wschodni szescdziesiat stopni _ prognoza_na_nastepne cztery godziny _ bezchmurnie _ temperatura trzynascie stopni_celsjusza cisnienie tysiac dwadziescia hektopaskali wilgotnosc szescdziesiat piec procent _ predkosc_wiatru dwa metry_na_sekunde dziesiec kilometrow_na_godzine _ wiatr polnocny jedenascie stopni _ prognoza_na_nastepne dwanascie godzin _ bezchmurnie _ temperatura osiemnascie stopni_celsjusza cisnienie tysiac dwadziescia jeden hektopaskali wilgotnosc siedemdziesiat procent _ predkosc_wiatru dwa metry_na_sekunde siedem kilometrow_na_godzine _ wiatr polnocny trzysta czterdziesci szesc stopni _ _ informacja_o_skaz_eniu_powietrza _ stacja_pomiarowa z_ywiec_ul_kopernika__83_a _ pyl__zawieszony_pm10 osiemnascie mikrogramo_w na_metr_szes_cienny poziom_bardzo_dobry _ dwutlenek_azotu trzy mikrogramy na_metr_szes_cienny poziom_bardzo_dobry _ _ sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ _ poziom_promieniowania _ wartos_c__aktualna piec dziesia_tych mikrosjiwerta na_godzine_ _ s_rednia_wartos_c__dobowa dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ _ kalendarium _ wscho_d_sl_on_ca godzina czwarta czterdziesci _ zacho_d_sl_on_ca godzina dwudziesta czterdziesci jeden _ zrodlo open_weather_map imgw gis_meteo radioactiveathome_org calendar_zoznam_sk tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 19:30:26,457 root INFO: loading sound samples...
+2018-06-02 19:30:26,457 root INFO: playing sound samples
+
+2018-06-02 19:33:24,721 root INFO: [93mfinishing...[0m
+2018-06-02 19:33:25,843 root INFO: [93mgoodbye[0m
+2018-06-02 19:41:05,938 root INFO: [93msr0wx.py started[0m
+2018-06-02 19:41:05,939 root INFO: [94m
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+[0m
+2018-06-02 19:41:05,939 root INFO: [92mstarting <activity_map.ActivityMap object at 0x74039770>...[0m
+2018-06-02 19:41:05,940 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 19:41:06,225 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 19:41:06,226 root INFO: [92mstarting <openweather_sq9atk.OpenWeatherSq9atk object at 0x740b07f0>...[0m
+2018-06-02 19:41:06,227 openweather_sq9atk INFO: ::: Pobieram aktualne dane pogodowe...
+2018-06-02 19:41:06,228 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/weather?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:41:07,916 openweather_sq9atk INFO: ::: Pobieram dane prognozy pogody...
+2018-06-02 19:41:07,918 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/forecast?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:41:08,034 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:41:08,085 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:41:08,087 root INFO: [92mstarting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x74169ef0>...[0m
+2018-06-02 19:41:08,089 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 19:41:08,491 root ERROR: [91mException when running <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x74169ef0>[0m
+Traceback (most recent call last):
+  File "sr0wx.py", line 168, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 45: ordinal not in range(128)
+2018-06-02 19:41:08,492 root INFO: [92mstarting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x740399f0>...[0m
+2018-06-02 19:41:08,493 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 19:41:08,775 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 19:41:08,855 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 19:41:08,856 root INFO: [92mstarting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x740390b0>...[0m
+2018-06-02 19:41:08,858 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 19:41:09,080 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:41:09,440 root INFO: [92mstarting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x74039330>...[0m
+2018-06-02 19:41:09,442 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 19:41:09,943 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:41:09,945 root INFO: [92mstarting <radioactive_sq9atk.RadioactiveSq9atk object at 0x740396b0>...[0m
+2018-06-02 19:41:09,946 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 19:41:10,206 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:41:10,319 root INFO: [92mstarting <calendar_sq9atk.CalendarSq9atk object at 0x740c2690>...[0m
+2018-06-02 19:41:10,320 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 19:41:11,273 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:41:13,553 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej stan_pogody_z_godziny dziewietnasta czterdziesci jeden _ bezchmurnie _ temperatura dwadziescia stopni_celsjusza cisnienie tysiac czternascie hektopaskali wilgotnosc piecdziesiat dwa procent _ predkosc_wiatru trzy metry_na_sekunde jedenascie kilometrow_na_godzine _ wiatr polnocno wschodni czterdziesci stopni _ prognoza_na_nastepne cztery godziny _ bezchmurnie _ temperatura trzynascie stopni_celsjusza cisnienie tysiac dwadziescia hektopaskali wilgotnosc szescdziesiat piec procent _ predkosc_wiatru dwa metry_na_sekunde dziesiec kilometrow_na_godzine _ wiatr polnocny jedenascie stopni _ prognoza_na_nastepne dwanascie godzin _ bezchmurnie _ temperatura osiemnascie stopni_celsjusza cisnienie tysiac dwadziescia jeden hektopaskali wilgotnosc siedemdziesiat procent _ predkosc_wiatru dwa metry_na_sekunde siedem kilometrow_na_godzine _ wiatr polnocny trzysta czterdziesci szesc stopni _ _ informacja_o_skaz_eniu_powietrza _ stacja_pomiarowa z_ywiec_ul_kopernika__83_a _ pyl__zawieszony_pm10 osiemnascie mikrogramo_w na_metr_szes_cienny poziom_bardzo_dobry _ dwutlenek_azotu trzy mikrogramy na_metr_szes_cienny poziom_bardzo_dobry _ _ sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ _ poziom_promieniowania _ wartos_c__aktualna piec dziesia_tych mikrosjiwerta na_godzine_ _ s_rednia_wartos_c__dobowa dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ _ kalendarium _ wscho_d_sl_on_ca godzina czwarta czterdziesci _ zacho_d_sl_on_ca godzina dwudziesta czterdziesci jeden _ zrodlo open_weather_map imgw gis_meteo radioactiveathome_org calendar_zoznam_sk tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 19:41:13,555 root INFO: loading sound samples...
+2018-06-02 19:41:13,556 root INFO: playing sound samples
+
+2018-06-02 19:43:35,531 root INFO: [93msr0wx.py started[0m
+2018-06-02 19:43:35,532 root INFO: [94m
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+[0m
+2018-06-02 19:43:35,533 root INFO: [92mstarting <activity_map.ActivityMap object at 0x74049770>...[0m
+2018-06-02 19:43:35,534 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 19:43:35,804 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 19:43:35,805 root INFO: [92mstarting <openweather_sq9atk.OpenWeatherSq9atk object at 0x740c07f0>...[0m
+2018-06-02 19:43:35,806 openweather_sq9atk INFO: ::: Pobieram aktualne dane pogodowe...
+2018-06-02 19:43:35,806 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/weather?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:43:35,911 openweather_sq9atk INFO: ::: Pobieram dane prognozy pogody...
+2018-06-02 19:43:35,911 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/forecast?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:43:36,024 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:43:36,050 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:43:36,052 root INFO: [92mstarting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x74179ef0>...[0m
+2018-06-02 19:43:36,052 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 19:43:36,362 root ERROR: [91mException when running <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x74179ef0>[0m
+Traceback (most recent call last):
+  File "sr0wx.py", line 168, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 45: ordinal not in range(128)
+2018-06-02 19:43:36,481 root INFO: [92mstarting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x740499f0>...[0m
+2018-06-02 19:43:36,482 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 19:43:36,818 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 19:43:36,823 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 19:43:36,824 root INFO: [92mstarting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x740490b0>...[0m
+2018-06-02 19:43:36,825 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 19:43:37,032 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:43:37,505 root INFO: [92mstarting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x74049330>...[0m
+2018-06-02 19:43:37,507 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 19:43:37,985 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:43:39,454 root INFO: [92mstarting <radioactive_sq9atk.RadioactiveSq9atk object at 0x740496b0>...[0m
+2018-06-02 19:43:39,455 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 19:43:39,667 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:43:39,681 root INFO: [92mstarting <calendar_sq9atk.CalendarSq9atk object at 0x740d2690>...[0m
+2018-06-02 19:43:39,683 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 19:43:40,432 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:43:40,509 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej stan_pogody_z_godziny dziewietnasta czterdziesci trzy _ bezchmurnie _ temperatura dwadziescia stopni_celsjusza cisnienie tysiac czternascie hektopaskali wilgotnosc piecdziesiat dwa procent _ predkosc_wiatru trzy metry_na_sekunde jedenascie kilometrow_na_godzine _ wiatr polnocno wschodni czterdziesci stopni _ prognoza_na_nastepne cztery godziny _ bezchmurnie _ temperatura trzynascie stopni_celsjusza cisnienie tysiac dwadziescia hektopaskali wilgotnosc szescdziesiat piec procent _ predkosc_wiatru dwa metry_na_sekunde dziesiec kilometrow_na_godzine _ wiatr polnocny jedenascie stopni _ prognoza_na_nastepne dwanascie godzin _ bezchmurnie _ temperatura osiemnascie stopni_celsjusza cisnienie tysiac dwadziescia jeden hektopaskali wilgotnosc siedemdziesiat procent _ predkosc_wiatru dwa metry_na_sekunde siedem kilometrow_na_godzine _ wiatr polnocny trzysta czterdziesci szesc stopni _ _ informacja_o_skaz_eniu_powietrza _ stacja_pomiarowa z_ywiec_ul_kopernika__83_a _ pyl__zawieszony_pm10 osiemnascie mikrogramo_w na_metr_szes_cienny poziom_bardzo_dobry _ dwutlenek_azotu trzy mikrogramy na_metr_szes_cienny poziom_bardzo_dobry _ _ sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ _ poziom_promieniowania _ wartos_c__aktualna dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ s_rednia_wartos_c__dobowa dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ _ kalendarium _ wscho_d_sl_on_ca godzina czwarta czterdziesci _ zacho_d_sl_on_ca godzina dwudziesta czterdziesci jeden _ zrodlo open_weather_map imgw gis_meteo radioactiveathome_org calendar_zoznam_sk tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 19:43:40,510 root INFO: loading sound samples...
+2018-06-02 19:43:40,510 root INFO: playing sound samples
+
+2018-06-02 19:45:01,916 root INFO: [93msr0wx.py started[0m
+2018-06-02 19:45:01,917 root INFO: [94m
+
+Copyright 2009-2014 Michal Sadowski (sq6jnx at hamradio dot pl)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------
+
+You can find full list of contributors on github.com/sq6jnx/sr0wx.py
+
+[0m
+2018-06-02 19:45:01,917 root INFO: [92mstarting <activity_map.ActivityMap object at 0x73ff0590>...[0m
+2018-06-02 19:45:01,918 activity_map INFO: ::: Przetwarzam dane...
+2018-06-02 19:45:02,147 activity_map INFO: ::: Dane wysłano, status OK
+
+2018-06-02 19:45:02,468 root INFO: [92mstarting <openweather_sq9atk.OpenWeatherSq9atk object at 0x74065610>...[0m
+2018-06-02 19:45:02,469 openweather_sq9atk INFO: ::: Pobieram aktualne dane pogodowe...
+2018-06-02 19:45:02,469 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/weather?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:45:02,599 openweather_sq9atk INFO: ::: Pobieram dane prognozy pogody...
+2018-06-02 19:45:02,600 openweather_sq9atk INFO: http://api.openweathermap.org/data/2.5/forecast?lat=54&lon=19&units=metric&appid=e77d4a99b641363595667537bb1ef89f
+2018-06-02 19:45:02,789 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:45:03,007 openweather_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:45:03,009 root INFO: [92mstarting <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x7411fd10>...[0m
+2018-06-02 19:45:03,010 meteoalarm_sq9atk INFO: ::: Pobieram i przetwarzam dane...
+
+2018-06-02 19:45:04,388 root ERROR: [91mException when running <meteoalarm_sq9atk.MeteoalarmSq9atk object at 0x7411fd10>[0m
+Traceback (most recent call last):
+  File "sr0wx.py", line 168, in <module>
+    message = " ".join((message, module_message))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 45: ordinal not in range(128)
+2018-06-02 19:45:04,390 root INFO: [92mstarting <imgw_podest_sq9atk.ImgwPodestSq9atk object at 0x73ff0810>...[0m
+2018-06-02 19:45:04,391 imgw_podest_sq9atk INFO: ::: Pobieram dane o wodowskazach...
+2018-06-02 19:45:04,741 imgw_podest_sq9atk INFO: ::: Przetwarzam...
+2018-06-02 19:45:04,747 imgw_podest_sq9atk INFO: ::: Przekazuję przetworzone dane...
+
+2018-06-02 19:45:04,748 root INFO: [92mstarting <air_pollution_sq9atk.AirPollutionSq9atk object at 0x73fe9eb0>...[0m
+2018-06-02 19:45:04,748 air_pollution_sq9atk INFO: ::: Pobieram informacje o skażeniu powietrza...
+2018-06-02 19:45:04,965 air_pollution_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:45:05,395 root INFO: [92mstarting <geo_magnetic_sq9atk.GeoMagneticSq9atk object at 0x73ff0150>...[0m
+2018-06-02 19:45:05,416 geo_magnetic_sq9atk INFO: ::: Pobieram informacje...
+2018-06-02 19:45:05,811 geo_magnetic_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:45:05,813 root INFO: [92mstarting <radioactive_sq9atk.RadioactiveSq9atk object at 0x73ff04d0>...[0m
+2018-06-02 19:45:05,814 radioactive_sq9atk INFO: ::: Pobieram dane...
+2018-06-02 19:45:06,023 radioactive_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:45:06,037 root INFO: [92mstarting <calendar_sq9atk.CalendarSq9atk object at 0x740774b0>...[0m
+2018-06-02 19:45:06,038 calendar_sq9atk INFO: ::: Pobieram dane o wschodzie i zachodzie słońca
+2018-06-02 19:45:06,977 calendar_sq9atk INFO: ::: Przetwarzam dane...
+
+2018-06-02 19:45:07,064 root INFO: playlist elements: tu_automatyczna_stacja_pogodowa_stefan_roman_9_wanda_ksawery beskidzkiej_amatorskiej_sieci_ratunkowej stan_pogody_z_godziny dziewietnasta czterdziesci piec _ bezchmurnie _ temperatura dwadziescia stopni_celsjusza cisnienie tysiac czternascie hektopaskali wilgotnosc piecdziesiat dwa procent _ predkosc_wiatru trzy metry_na_sekunde jedenascie kilometrow_na_godzine _ wiatr polnocno wschodni czterdziesci stopni _ prognoza_na_nastepne cztery godziny _ bezchmurnie _ temperatura trzynascie stopni_celsjusza cisnienie tysiac dwadziescia hektopaskali wilgotnosc szescdziesiat piec procent _ predkosc_wiatru dwa metry_na_sekunde dziesiec kilometrow_na_godzine _ wiatr polnocny jedenascie stopni _ prognoza_na_nastepne dwanascie godzin _ bezchmurnie _ temperatura osiemnascie stopni_celsjusza cisnienie tysiac dwadziescia jeden hektopaskali wilgotnosc siedemdziesiat procent _ predkosc_wiatru dwa metry_na_sekunde siedem kilometrow_na_godzine _ wiatr polnocny trzysta czterdziesci szesc stopni _ _ informacja_o_skaz_eniu_powietrza _ stacja_pomiarowa z_ywiec_ul_kopernika__83_a _ pyl__zawieszony_pm10 osiemnascie mikrogramo_w na_metr_szes_cienny poziom_bardzo_dobry _ dwutlenek_azotu trzy mikrogramy na_metr_szes_cienny poziom_bardzo_dobry _ _ sytuacja_geomagnetyczna_w_regionie _ dzis wieczorem umiarkowane_zabuz_enia_geomagnetyczne niezauwaz_alne wahania_dobowe _ jutro kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ po_jutrze kro_tko_po_po_l_nocy umiarkowane_zabuz_enia_geomagnetyczne lekkie wahania_dobowe _ _ poziom_promieniowania _ wartos_c__aktualna dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ s_rednia_wartos_c__dobowa dziewiec dziesia_tych mikrosjiwerta na_godzine_ _ _ kalendarium _ wscho_d_sl_on_ca godzina czwarta czterdziesci _ zacho_d_sl_on_ca godzina dwudziesta czterdziesci jeden _ zrodlo open_weather_map imgw gis_meteo radioactiveathome_org calendar_zoznam_sk tu_stefan_roman_9_wanda_ksawery beskidzka_amatorska_siec__ratunkowa
+
+2018-06-02 19:45:07,066 root INFO: loading sound samples...
+2018-06-02 19:45:07,067 root INFO: playing sound samples
+
+2018-06-02 19:48:05,411 root INFO: [93mfinishing...[0m
+2018-06-02 19:48:06,534 root INFO: [93mgoodbye[0m
